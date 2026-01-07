@@ -56,10 +56,21 @@ function renderTable(data) {
         row.querySelector("button").onclick = () => {
             loadStructure(entry.structure);
         };
+        row.querySelector("button").onclick = () => {
+            loadStructure(entry.structure);
+        
+            // filter to only this GPCR+ligand row
+            const subset = allData.filter(d =>
+                d.gpcr === entry.gpcr && d.ligand === entry.ligand
+            );
+        
+            renderScoresTable(subset);
+        };
 
         tbody.appendChild(row);
     });
 }
+
 
 // --------------------------
 // Search functionality
@@ -133,3 +144,28 @@ function loadStructure(pdbFile) {
         viewer.render();
     });
 }
+
+
+function renderScoresTable(entries) {
+    const tbody = document.querySelector("#scoresTable tbody");
+    tbody.innerHTML = "";
+
+    entries.forEach(entry => {
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td>${entry.gpcr}</td>
+            <td>${entry.ligand}</td>
+            <td>${entry.complex_plddt.toFixed(3)}</td>
+            <td>${entry.complex_iplddt.toFixed(3)}</td>
+            <td>${entry.iptm.toFixed(3)}</td>
+            <td>${entry.complex_ipde.toFixed(3)}</td>
+            <td>${entry.confidence_score.toFixed(3)}</td>
+            <td>${entry.affinity_mean.toFixed(3)}</td>
+        `;
+
+        tbody.appendChild(row);
+    });
+}
+
+
