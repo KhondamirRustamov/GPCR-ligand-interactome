@@ -121,7 +121,7 @@ function loadStructure(pdbFile) {
             {   
                 cartoon: {
                     colorscheme: {
-                        prop: "b",
+                        prop: "tempfactor",
                         gradient: "roygb",
                         min: 0,
                         max: 100,
@@ -129,6 +129,8 @@ function loadStructure(pdbFile) {
                 }
             }
         );
+        const model = viewer.getModel();
+        console.log(model.selectedAtoms({})[0]);
         viewer.zoomTo();
         viewer.render();
     });
