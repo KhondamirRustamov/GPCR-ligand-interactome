@@ -50,7 +50,7 @@ function renderTable(data) {
         const row = document.createElement("tr");
 
         row.innerHTML = `
-            <td>${entry.CPCR}</td>
+            <td>${entry.gpcr}</td>
             <td>${entry.ligand}</td>
             <td>${Number(entry.iptm).toFixed(2)}</td>
             <td>${Number(entry.complex_plddt).toFixed(3)}</td>
