@@ -22,7 +22,7 @@ function applySearch() {
     const query = document.getElementById("searchBox").value.toLowerCase();
 
     const filtered = allData.filter(d =>
-        d.gpcr.toLowerCase().includes(query) ||
+        d.GPCR.toLowerCase().includes(query) ||
         d.ligand.toLowerCase().includes(query)
     );
 
@@ -37,10 +37,10 @@ function renderTable(data) {
         const row = document.createElement("tr");
 
         row.innerHTML = `
-            <td>${entry.gpcr}</td>
+            <td>${entry.GPCR}</td>
             <td>${entry.ligand}</td>
-            <td>${Number(entry.pKi).toFixed(2)}</td>
-            <td>${Number(entry.score).toFixed(3)}</td>
+            <td>${Number(entry.iptm).toFixed(2)}</td>
+            <td>${Number(entry.complex_plddt).toFixed(3)}</td>
             <td><button>View</button></td>
         `;
 
