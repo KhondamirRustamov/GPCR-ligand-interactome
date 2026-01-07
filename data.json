@@ -1,7 +1,7 @@
 [
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"12-Epi_Ltb4",
     "complex_plddt":0.7445640564,
     "complex_iplddt":0.7311676145,
     "iptm":0.9043114781,
@@ -18,7 +18,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"12-Hydroxyheptadecatrienoic_Acid",
     "complex_plddt":0.7720017433,
     "complex_iplddt":0.7588908672,
     "iptm":0.9127619863,
@@ -35,7 +35,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"12r-Hete",
     "complex_plddt":0.7455873489,
     "complex_iplddt":0.5374599695,
     "iptm":0.6462286115,
@@ -52,7 +52,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"12s-Hete",
     "complex_plddt":0.7343011498,
     "complex_iplddt":0.5342472792,
     "iptm":0.7654511929,
@@ -69,7 +69,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"12s-Hpete",
     "complex_plddt":0.7140715122,
     "complex_iplddt":0.4764171541,
     "iptm":0.7505708933,
@@ -86,7 +86,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"15s-Hete",
     "complex_plddt":0.7724712491,
     "complex_iplddt":0.6927007437,
     "iptm":0.8853552938,
@@ -103,7 +103,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"17\u0392-Estradiol",
     "complex_plddt":0.7324283719,
     "complex_iplddt":0.7802451253,
     "iptm":0.9096145034,
@@ -120,7 +120,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"18r-Hepe",
     "complex_plddt":0.7751142383,
     "complex_iplddt":0.8065817356,
     "iptm":0.9324617386,
@@ -137,7 +137,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"2-Arachidonoylglycerol",
     "complex_plddt":0.7362875938,
     "complex_iplddt":0.5377125144,
     "iptm":0.6519657373,
@@ -154,7 +154,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"2-Arachidonoylglycerolphosphoinositol",
     "complex_plddt":0.6878354549,
     "complex_iplddt":0.4071640074,
     "iptm":0.575641036,
@@ -171,7 +171,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"2-Oleoyl-Lpa",
     "complex_plddt":0.7091390491,
     "complex_iplddt":0.500736773,
     "iptm":0.7286675572,
@@ -188,7 +188,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"20-Hydroxy-Ltb4",
     "complex_plddt":0.7765335441,
     "complex_iplddt":0.7905057669,
     "iptm":0.9019044638,
@@ -205,7 +205,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"25-Hydroxycholesterol",
     "complex_plddt":0.707038343,
     "complex_iplddt":0.5782274604,
     "iptm":0.7158619165,
@@ -222,7 +222,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"27-Hydroxycholesterol",
     "complex_plddt":0.7123115063,
     "complex_iplddt":0.4428734779,
     "iptm":0.668554306,
@@ -239,7 +239,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"3-Hydroxyoctanoic_Acid",
     "complex_plddt":0.7536063194,
     "complex_iplddt":0.6504743099,
     "iptm":0.767495513,
@@ -256,7 +256,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5-Hydroxytryptamine",
     "complex_plddt":0.7881743312,
     "complex_iplddt":0.8786216974,
     "iptm":0.9926962256,
@@ -273,7 +273,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5-Oxo-12-Hete",
     "complex_plddt":0.7371125221,
     "complex_iplddt":0.7156395316,
     "iptm":0.8764833212,
@@ -290,7 +290,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5-Oxo-15-Hete",
     "complex_plddt":0.7441798449,
     "complex_iplddt":0.7219521403,
     "iptm":0.9236789942,
@@ -307,7 +307,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5-Oxo-20-Hete",
     "complex_plddt":0.7319490314,
     "complex_iplddt":0.5360043645,
     "iptm":0.7885594368,
@@ -324,7 +324,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5-Oxo-C20_3",
     "complex_plddt":0.7429686189,
     "complex_iplddt":0.5459019542,
     "iptm":0.7041909099,
@@ -341,7 +341,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5-Oxo-Ete",
     "complex_plddt":0.7396443486,
     "complex_iplddt":0.5940991044,
     "iptm":0.7428874373,
@@ -358,7 +358,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5-Oxo-Ode",
     "complex_plddt":0.7258419394,
     "complex_iplddt":0.5075700283,
     "iptm":0.6776743531,
@@ -375,7 +375,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5s-Hete",
     "complex_plddt":0.7268862724,
     "complex_iplddt":0.6047762036,
     "iptm":0.6682652235,
@@ -392,7 +392,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"5s-Hpete",
     "complex_plddt":0.7432602048,
     "complex_iplddt":0.5575466752,
     "iptm":0.7466626167,
@@ -409,7 +409,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"7\u0391,25-Dihydroxycholesterol",
     "complex_plddt":0.6765918732,
     "complex_iplddt":0.5483656526,
     "iptm":0.6477704644,
@@ -426,7 +426,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"7\u0391,27-Dihydroxycholesterol",
     "complex_plddt":0.6909125447,
     "complex_iplddt":0.4514200687,
     "iptm":0.7425770164,
@@ -443,7 +443,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"7\u0392-Hydroxycholesterol",
     "complex_plddt":0.7156931758,
     "complex_iplddt":0.4283619523,
     "iptm":0.6527588367,
@@ -460,7 +460,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"9-Hydroxyoctadecadienoic_Acid",
     "complex_plddt":0.7241311073,
     "complex_iplddt":0.6647925377,
     "iptm":0.9305499196,
@@ -477,7 +477,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Acetic_Acid",
     "complex_plddt":0.7341415882,
     "complex_iplddt":0.6997150779,
     "iptm":0.7202199697,
@@ -494,7 +494,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Acetylcholine",
     "complex_plddt":0.7844986916,
     "complex_iplddt":0.8376472592,
     "iptm":0.9658086896,
@@ -511,7 +511,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Adp",
     "complex_plddt":0.7349526882,
     "complex_iplddt":0.6544273496,
     "iptm":0.7982132435,
@@ -528,7 +528,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Adrenaline",
     "complex_plddt":0.7596895695,
     "complex_iplddt":0.8538799882,
     "iptm":0.9903882742,
@@ -545,7 +545,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Anandamide",
     "complex_plddt":0.7430054545,
     "complex_iplddt":0.5388715267,
     "iptm":0.6754587293,
@@ -562,7 +562,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Aspirin-Triggered_Resolvin_D1",
     "complex_plddt":0.7257714868,
     "complex_iplddt":0.5552140474,
     "iptm":0.8333963156,
@@ -579,7 +579,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Aspirin_Triggered_Lipoxin_A4",
     "complex_plddt":0.7322606444,
     "complex_iplddt":0.6736751199,
     "iptm":0.9327420592,
@@ -596,7 +596,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Atp",
     "complex_plddt":0.7125940323,
     "complex_iplddt":0.4789642096,
     "iptm":0.7966624498,
@@ -613,7 +613,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"ButyricAcid",
     "complex_plddt":0.7767943144,
     "complex_iplddt":0.7250272036,
     "iptm":0.7043009996,
@@ -630,7 +630,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Chenodeoxycholic_Acid",
     "complex_plddt":0.7317986488,
     "complex_iplddt":0.5678917766,
     "iptm":0.8228205442,
@@ -647,7 +647,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"cholesterole",
     "complex_plddt":0.6979908347,
     "complex_iplddt":0.4977283478,
     "iptm":0.7405670285,
@@ -664,7 +664,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Cholic_Acid",
     "complex_plddt":0.7051705718,
     "complex_iplddt":0.418635875,
     "iptm":0.8027433753,
@@ -681,7 +681,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Deoxycholic_Acid",
     "complex_plddt":0.7398411632,
     "complex_iplddt":0.5960233212,
     "iptm":0.6727758646,
@@ -698,7 +698,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Dihydrosphingosine_1-Phosphate",
     "complex_plddt":0.7159450054,
     "complex_iplddt":0.4948189557,
     "iptm":0.646245718,
@@ -715,7 +715,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Dioleoylphosphatidic_Acid",
     "complex_plddt":0.7050026655,
     "complex_iplddt":0.443929255,
     "iptm":0.6655526757,
@@ -732,7 +732,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Docosahexaenoic_Acid",
     "complex_plddt":0.7199100852,
     "complex_iplddt":0.560723722,
     "iptm":0.6138418913,
@@ -749,7 +749,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Dopamine",
     "complex_plddt":0.7910608649,
     "complex_iplddt":0.8686767817,
     "iptm":0.9923911691,
@@ -766,7 +766,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Ecdysterone",
     "complex_plddt":0.7215120196,
     "complex_iplddt":0.6800646782,
     "iptm":0.9447734952,
@@ -783,7 +783,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Epa",
     "complex_plddt":0.7107897401,
     "complex_iplddt":0.5059524179,
     "iptm":0.7570150495,
@@ -800,7 +800,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Farnesyl_Diphosphate",
     "complex_plddt":0.7238349319,
     "complex_iplddt":0.5263208747,
     "iptm":0.6352888346,
@@ -817,7 +817,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Farnesyl_Monophosphate",
     "complex_plddt":0.7103378773,
     "complex_iplddt":0.5304402709,
     "iptm":0.7371208668,
@@ -834,7 +834,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Glycine",
     "complex_plddt":0.7888134122,
     "complex_iplddt":0.7580806017,
     "iptm":0.8802165389,
@@ -851,7 +851,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Histamine",
     "complex_plddt":0.7684009075,
     "complex_iplddt":0.8442879319,
     "iptm":0.9896790981,
@@ -868,7 +868,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Isoamylamine",
     "complex_plddt":0.7736159563,
     "complex_iplddt":0.8370765448,
     "iptm":0.9833725691,
@@ -885,7 +885,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Kynurenic_Acid",
     "complex_plddt":0.7885825038,
     "complex_iplddt":0.8268292546,
     "iptm":0.9822949171,
@@ -902,7 +902,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Alanine",
     "complex_plddt":0.7507457137,
     "complex_iplddt":0.7230927944,
     "iptm":0.9269875288,
@@ -919,7 +919,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Arginine",
     "complex_plddt":0.7800636292,
     "complex_iplddt":0.8430203795,
     "iptm":0.933427453,
@@ -936,7 +936,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Citrulline",
     "complex_plddt":0.7871235609,
     "complex_iplddt":0.8441237807,
     "iptm":0.9439268708,
@@ -953,7 +953,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Glutamic_Acid",
     "complex_plddt":0.748903513,
     "complex_iplddt":0.579238832,
     "iptm":0.646081984,
@@ -970,7 +970,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Glutamine",
     "complex_plddt":0.7310695052,
     "complex_iplddt":0.6719049215,
     "iptm":0.9010618329,
@@ -987,7 +987,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Lactic_Acid",
     "complex_plddt":0.7369259,
     "complex_iplddt":0.6747401357,
     "iptm":0.7055155039,
@@ -1004,7 +1004,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Lysine",
     "complex_plddt":0.7453551292,
     "complex_iplddt":0.7247263789,
     "iptm":0.9295396805,
@@ -1021,7 +1021,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Ornithine",
     "complex_plddt":0.7852146029,
     "complex_iplddt":0.8304828405,
     "iptm":0.9650478959,
@@ -1038,7 +1038,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Phenylalanine",
     "complex_plddt":0.7569164038,
     "complex_iplddt":0.8149106503,
     "iptm":0.9608954191,
@@ -1055,7 +1055,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Serine",
     "complex_plddt":0.7602850199,
     "complex_iplddt":0.7068545818,
     "iptm":0.8396734595,
@@ -1072,7 +1072,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Serine-O-Phosphate",
     "complex_plddt":0.7514262795,
     "complex_iplddt":0.5870357156,
     "iptm":0.8407375813,
@@ -1089,7 +1089,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"L-Tryptophan",
     "complex_plddt":0.8058227301,
     "complex_iplddt":0.8595858216,
     "iptm":0.9784590602,
@@ -1106,7 +1106,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"3-Iodothyronamine",
     "complex_plddt":0.729006052,
     "complex_iplddt":0.7665421963,
     "iptm":0.9556274414,
@@ -1123,7 +1123,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Adenosine",
     "complex_plddt":0.7497333288,
     "complex_iplddt":0.8184882402,
     "iptm":0.9717872143,
@@ -1140,7 +1140,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Gaba",
     "complex_plddt":0.8129287958,
     "complex_iplddt":0.8615432382,
     "iptm":0.970670104,
@@ -1157,7 +1157,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Linoleic_Acid",
     "complex_plddt":0.7394233942,
     "complex_iplddt":0.5589450598,
     "iptm":0.6938496828,
@@ -1174,7 +1174,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Oleic_Acid",
     "complex_plddt":0.7573900819,
     "complex_iplddt":0.5413666964,
     "iptm":0.6726985574,
@@ -1191,7 +1191,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Lithocholic_Acid",
     "complex_plddt":0.7107787728,
     "complex_iplddt":0.514359653,
     "iptm":0.7520951629,
@@ -1208,7 +1208,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Lpa",
     "complex_plddt":0.6910827756,
     "complex_iplddt":0.4675442278,
     "iptm":0.8034570813,
@@ -1225,7 +1225,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Ltb4",
     "complex_plddt":0.7168328762,
     "complex_iplddt":0.4728165567,
     "iptm":0.6984497309,
@@ -1242,7 +1242,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Ltc4",
     "complex_plddt":0.6897649765,
     "complex_iplddt":0.4442099631,
     "iptm":0.7983562946,
@@ -1259,7 +1259,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Ltd4",
     "complex_plddt":0.6758280993,
     "complex_iplddt":0.432867378,
     "iptm":0.7191800475,
@@ -1276,7 +1276,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Lte4",
     "complex_plddt":0.7050061226,
     "complex_iplddt":0.4465355575,
     "iptm":0.7729280591,
@@ -1293,7 +1293,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Lxa4",
     "complex_plddt":0.7404352427,
     "complex_iplddt":0.6978722215,
     "iptm":0.8965483308,
@@ -1310,7 +1310,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Lysophosphatidylinositol",
     "complex_plddt":0.716139257,
     "complex_iplddt":0.5215438604,
     "iptm":0.7926685214,
@@ -1327,7 +1327,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Lysophosphatidylserine",
     "complex_plddt":0.7044573426,
     "complex_iplddt":0.4580186009,
     "iptm":0.6534867883,
@@ -1344,7 +1344,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Melatonin",
     "complex_plddt":0.7710192204,
     "complex_iplddt":0.8531461358,
     "iptm":0.9813828468,
@@ -1361,7 +1361,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Myristic_Acid",
     "complex_plddt":0.7333011031,
     "complex_iplddt":0.5454204082,
     "iptm":0.7815932035,
@@ -1378,7 +1378,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"N-Arachidonoylglycine",
     "complex_plddt":0.7164997458,
     "complex_iplddt":0.50833565,
     "iptm":0.7473731041,
@@ -1395,7 +1395,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"N-Oleoylethanolamide",
     "complex_plddt":0.7307976484,
     "complex_iplddt":0.5514594316,
     "iptm":0.6727486849,
@@ -1412,7 +1412,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"N-Palmitoylethanolamine",
     "complex_plddt":0.7440181375,
     "complex_iplddt":0.5333864093,
     "iptm":0.7385793924,
@@ -1429,7 +1429,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Naag",
     "complex_plddt":0.7386447787,
     "complex_iplddt":0.6058357954,
     "iptm":0.8814547658,
@@ -1446,7 +1446,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Noradrenaline",
     "complex_plddt":0.7435714006,
     "complex_iplddt":0.8274491429,
     "iptm":0.9894282818,
@@ -1463,7 +1463,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Octopamine",
     "complex_plddt":0.7356539369,
     "complex_iplddt":0.8131991029,
     "iptm":0.9913758636,
@@ -1480,7 +1480,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Paf",
     "complex_plddt":0.7411651015,
     "complex_iplddt":0.4882469177,
     "iptm":0.6712465882,
@@ -1497,7 +1497,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pgd2",
     "complex_plddt":0.7755588293,
     "complex_iplddt":0.8391397595,
     "iptm":0.9650947452,
@@ -1514,7 +1514,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pgd3",
     "complex_plddt":0.7657219172,
     "complex_iplddt":0.7869981527,
     "iptm":0.8775058389,
@@ -1531,7 +1531,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pge1",
     "complex_plddt":0.743493855,
     "complex_iplddt":0.6653410792,
     "iptm":0.9514605403,
@@ -1548,7 +1548,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pge2",
     "complex_plddt":0.7118278146,
     "complex_iplddt":0.6381438971,
     "iptm":0.9549030662,
@@ -1565,7 +1565,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pgf2\u0391",
     "complex_plddt":0.7439963222,
     "complex_iplddt":0.7729206085,
     "iptm":0.9393671751,
@@ -1582,7 +1582,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pgh2",
     "complex_plddt":0.787727654,
     "complex_iplddt":0.8446019292,
     "iptm":0.9508017898,
@@ -1599,7 +1599,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pgi2",
     "complex_plddt":0.7309388518,
     "complex_iplddt":0.7663426399,
     "iptm":0.950068593,
@@ -1616,7 +1616,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Pgj2",
     "complex_plddt":0.7095383406,
     "complex_iplddt":0.5832560658,
     "iptm":0.8060107827,
@@ -1633,7 +1633,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Phosphatidylserine",
     "complex_plddt":0.7389565706,
     "complex_iplddt":0.5824288726,
     "iptm":0.9349321723,
@@ -1650,7 +1650,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"polyP-10",
     "complex_plddt":0.6774509549,
     "complex_iplddt":0.3895398378,
     "iptm":0.6187059879,
@@ -1667,7 +1667,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Propanoic_Acid",
     "complex_plddt":0.7703790069,
     "complex_iplddt":0.6239364743,
     "iptm":0.5506765842,
@@ -1684,7 +1684,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Resolvin_D1",
     "complex_plddt":0.7182506919,
     "complex_iplddt":0.5371283889,
     "iptm":0.8022364974,
@@ -1701,7 +1701,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Resolvin_E1",
     "complex_plddt":0.7604392767,
     "complex_iplddt":0.7490949035,
     "iptm":0.8706971407,
@@ -1718,7 +1718,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Sea",
     "complex_plddt":0.7118462324,
     "complex_iplddt":0.4870973527,
     "iptm":0.6913896203,
@@ -1735,7 +1735,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Spermine",
     "complex_plddt":0.8088899851,
     "complex_iplddt":0.8234624267,
     "iptm":0.9341078401,
@@ -1752,7 +1752,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Sphingosine_1-Phosphate",
     "complex_plddt":0.7417349815,
     "complex_iplddt":0.5342832208,
     "iptm":0.7462080121,
@@ -1769,7 +1769,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Sphingosylphosphorylcholine",
     "complex_plddt":0.7844986916,
     "complex_iplddt":0.8466231227,
     "iptm":0.9361364841,
@@ -1786,7 +1786,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Succinic_Acid",
     "complex_plddt":0.7833371162,
     "complex_iplddt":0.6955947876,
     "iptm":0.789937973,
@@ -1803,7 +1803,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Thromboxane_A2",
     "complex_plddt":0.8071523309,
     "complex_iplddt":0.857393384,
     "iptm":0.9488630891,
@@ -1820,7 +1820,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Trans-2-Methylcrotonic_Acid",
     "complex_plddt":0.7434232831,
     "complex_iplddt":0.6833246946,
     "iptm":0.7953400016,
@@ -1837,7 +1837,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Tryptamine",
     "complex_plddt":0.7588657141,
     "complex_iplddt":0.8448812962,
     "iptm":0.9917446971,
@@ -1854,7 +1854,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Tyramine",
     "complex_plddt":0.7700925469,
     "complex_iplddt":0.838283062,
     "iptm":0.9864358902,
@@ -1871,7 +1871,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Udp",
     "complex_plddt":0.6948113441,
     "complex_iplddt":0.4620032609,
     "iptm":0.8452516198,
@@ -1888,7 +1888,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Udp-Galactose",
     "complex_plddt":0.7400467396,
     "complex_iplddt":0.4767893255,
     "iptm":0.799190402,
@@ -1905,7 +1905,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Udp-Glucose",
     "complex_plddt":0.7199568152,
     "complex_iplddt":0.5341460109,
     "iptm":0.8317620754,
@@ -1922,7 +1922,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Udp-GlucuronicAcid",
     "complex_plddt":0.7072279453,
     "complex_iplddt":0.5172843337,
     "iptm":0.8293348551,
@@ -1939,7 +1939,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Udp_N-Acetyl-Glucosamine",
     "complex_plddt":0.71137321,
     "complex_iplddt":0.3763195574,
     "iptm":0.6937610507,
@@ -1956,7 +1956,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"Utp",
     "complex_plddt":0.7299358249,
     "complex_iplddt":0.5533557534,
     "iptm":0.7657680511,
@@ -1973,7 +1973,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"\u0391-Ketoglutaric_Acid",
     "complex_plddt":0.7667136192,
     "complex_iplddt":0.6798399687,
     "iptm":0.8194483519,
@@ -1990,7 +1990,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"\u0391-Linolenic_Acid",
     "complex_plddt":0.7213511467,
     "complex_iplddt":0.5515761971,
     "iptm":0.768445611,
@@ -2007,7 +2007,7 @@
   },
   {
     "gpcr":"5HT1A",
-    "ligand":"\u0392-D-Hydroxybutyric_Acid",
+    "ligand":"\u0392-Alanine",
     "complex_plddt":0.7968716025,
     "complex_iplddt":0.8398523331,
     "iptm":0.9241282344,
