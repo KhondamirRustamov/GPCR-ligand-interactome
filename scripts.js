@@ -29,6 +29,18 @@ function applySearch() {
     renderTable(filtered.slice(0, 500));
 }
 
+function populateGPCRDropdown(data) {
+    const datalist = document.getElementById("gpcrList");
+
+    const gpcrs = [...new Set(data.map(d => d.gpcr))].sort();
+
+    gpcrs.forEach(gpcr => {
+        const option = document.createElement("option");
+        option.value = gpcr;
+        datalist.appendChild(option);
+    });
+}
+
 function renderTable(data) {
     const tbody = document.querySelector("#resultsTable tbody");
     tbody.innerHTML = "";
