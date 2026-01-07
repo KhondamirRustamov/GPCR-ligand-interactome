@@ -113,7 +113,7 @@ function loadStructure(pdbFile) {
         viewer.setStyle(
             { hetflag: true },
             {
-                stick: { radius: 0.25 }
+                stick: { radius: 0.5 }
             }
         );
         viewer.setStyle(
@@ -123,7 +123,7 @@ function loadStructure(pdbFile) {
                     colorscheme: {
                         prop: "b",
                         gradient: "roygb",
-                        min: 0,
+                        min: 50,
                         max: 100,
                     }
                 }
