@@ -104,11 +104,31 @@ function loadStructure(pdbFile) {
 
     $.get(pdbFile, pdbData => {
         viewer.addModel(pdbData, "cif");
-        viewer.setStyle({}, { cartoon: { color: "spectrum" } });
-        viewer.addSurface($3Dmol.SurfaceType.VDW, { opacity: 0.15 });
+    
+        // 1) Protein cartoon colored by B-factor
+        viewer.setStyle(
+            { protein: true },
+            {
+                cartoon: {
+                    colorscheme: {
+                        prop: "b",          // use B-factor
+                        gradient: "roygb"   // blue → red scale
+                    }
+                }
+            }
+        );
+    
+        // 2) Sticks for non-protein atoms (ligands, water, ions, etc.)
+        viewer.setStyle(
+            { protein: false },
+            {
+                stick: {
+                    radius: 0.2
+                }
+            }
+        );
+    
         viewer.zoomTo();
         viewer.render();
-    }).fail(() => {
-        alert(`Failed to load structure: ${pdbFile}`);
     });
 }
