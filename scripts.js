@@ -23,7 +23,7 @@ function applySearch() {
     const query = document.getElementById("searchBox").value.toLowerCase();
 
     const filtered = allData.filter(d =>
-        d.GPCR.toLowerCase().includes(query) ||
+        d.gpcr.toLowerCase().includes(query) ||
         d.ligand.toLowerCase().includes(query)
     );
 
