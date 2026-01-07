@@ -120,11 +120,15 @@ function loadStructure(pdbFile) {
             { hetflag: false },
             {   
                 cartoon: {
-                    colorscheme: {
-                        prop: "tempfactor",
-                        gradient: "roygb",
-                        min: 0,
-                        max: 100,
+                    prop: "tempfactor",
+                    colorfunc: function(atom) {
+    
+                        const v = atom.tempfactor;
+    
+                        if (v >= 90) return "0x2166AC";      // dark blue
+                        if (v >= 70) return "0x67A9CF";      // light blue/cyan
+                        if (v >= 50) return "0xFDD866";      // yellow
+                        return "0xD73027";                   // orange-red
                     }
                 }
             }
