@@ -99,8 +99,8 @@ function loadStructure(pdbFile) {
     viewer.clear();
 
     $.get(pdbFile, pdbData => {
-        viewer.addModel(pdbData, "cif"); // use "cif" because your files are .cif
-        viewer.setStyle({}, { cartoon: { color: "spectrum" } });
+        viewer.addModel(pdbData, "cif");
+        viewer.setStyle({}, { cartoon: { color: "plDDT" } });
         viewer.addSurface($3Dmol.SurfaceType.VDW, { opacity: 0.15 });
         viewer.zoomTo();
         viewer.render();
@@ -108,3 +108,4 @@ function loadStructure(pdbFile) {
         alert(`Failed to load structure: ${pdbFile}`);
     });
 }
+
