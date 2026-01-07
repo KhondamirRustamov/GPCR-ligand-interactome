@@ -120,7 +120,7 @@ function loadStructure(pdbFile) {
             {
                 cartoon: {
                     colorscheme: {
-                        prop: "tempfactor",
+                        prop: "b",
                         colorfunc: function(atom) {
         
                             const v = atom.tempfactor;
