@@ -124,7 +124,7 @@ function loadStructure(pdbFile) {
                         prop: "tempfactor",
                         gradient: "roygb",  // rainbow-ish
                         min: 50,
-                        max: 100
+                        max: 100,
                     }
                 }
             }
