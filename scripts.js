@@ -106,8 +106,17 @@ function loadStructure(pdbFile) {
         viewer.addModel(pdbData, "cif");
 
         // Protein cartoon, colored by B-factor
+       // Remove waters
+        viewer.setStyle({ resn: "HOH" }, {});
+
+        // Ligands and non-protein atoms as sticks
         viewer.setStyle(
-            { protein: true },
+            { hetflag: true },
+            {
+                stick: { radius: 0.25 }
+            }
+        );
+        viewer.setStyle(
             {
                 cartoon: {
                     style: "trace",
@@ -118,18 +127,6 @@ function loadStructure(pdbFile) {
                 }
             }
         );
-
-        // Remove waters
-        viewer.setStyle({ resn: "HOH" }, {});
-
-        // Ligands and non-protein atoms as sticks
-        viewer.setStyle(
-            { hetflag: true },
-            {
-                stick: { radius: 0.25 }
-            }
-        );
-
         viewer.zoomTo();
         viewer.render();
     });
