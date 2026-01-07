@@ -18,6 +18,17 @@ fetch("data.json")
         alert("Could not load data.json");
     });
 
+function applySearch() {
+    const query = document.getElementById("searchBox").value.toLowerCase();
+
+    const filtered = allData.filter(d =>
+        d.gpcr.toLowerCase().includes(query) ||
+        d.ligand.toLowerCase().includes(query)
+    );
+
+    renderTable(filtered.slice(0, 500));
+}
+
 function renderTable(data) {
     const tbody = document.querySelector("#resultsTable tbody");
     tbody.innerHTML = "";
@@ -41,16 +52,17 @@ function renderTable(data) {
     });
 }
 
-// Search box
-document.getElementById("searchBox").addEventListener("input", e => {
-    const query = e.target.value.toLowerCase();
+const searchBox = document.getElementById("searchBox");
 
-    const filtered = allData.filter(d =>
-        d.gpcr.toLowerCase().includes(query) ||
-        d.ligand.toLowerCase().includes(query)
-    );
+// Live search while typing
+searchBox.addEventListener("input", applySearch);
 
-    renderTable(filtered.slice(0, 500));
+// Search when pressing Enter
+searchBox.addEventListener("keydown", e => {
+    if (e.key === "Enter") {
+        e.preventDefault();
+        applySearch();
+    }
 });
 
 // 3Dmol structure viewer
