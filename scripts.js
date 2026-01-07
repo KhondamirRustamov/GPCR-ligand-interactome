@@ -92,15 +92,19 @@ function applySearch() {
 // 3Dmol.js viewer for structures
 // --------------------------
 function loadStructure(pdbFile) {
+    const viewerElement = document.getElementById("viewer");
+
     if (!viewer) {
-        viewer = $3Dmol.createViewer("viewer", { backgroundColor: "white" });
+        viewer = $3Dmol.createViewer(viewerElement, {
+            backgroundColor: "white"
+        });
     }
 
     viewer.clear();
 
     $.get(pdbFile, pdbData => {
         viewer.addModel(pdbData, "cif");
-        viewer.setStyle({}, { cartoon: { color: "plDDT" } });
+        viewer.setStyle({}, { cartoon: { color: "spectrum" } });
         viewer.addSurface($3Dmol.SurfaceType.VDW, { opacity: 0.15 });
         viewer.zoomTo();
         viewer.render();
@@ -108,4 +112,3 @@ function loadStructure(pdbFile) {
         alert(`Failed to load structure: ${pdbFile}`);
     });
 }
-
