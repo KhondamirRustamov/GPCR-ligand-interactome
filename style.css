@@ -120,4 +120,20 @@ footer {
     margin-top: 2px;
 }
 
+.colorbar-continuous {
+    margin: 6px 0 4px 0;
+    height: 14px;
+    border: 1px solid #ccc;
+    background: linear-gradient(
+        to right,
+        #d73027,
+        #f46d43,
+        #fdae61,
+        #ffffbf,
+        #abd9e9,
+        #74add1,
+        #4575b4,
+        #313695
+    );
+}
 
