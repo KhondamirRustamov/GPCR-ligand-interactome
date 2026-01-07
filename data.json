@@ -1,6 +1,6 @@
 [
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7445640564,
     "complex_iplddt":0.7311676145,
@@ -14,10 +14,10 @@
     "affinity_probability_binary1":0.0887714997,
     "affinity_probability_binary2":0.1200890318,
     "affinity_mean":-0.0665292504,
-    "structure_url":"pdb\/5HT1A_12-Epi_Ltb4.cif"
+    "structure":"pdb\/5HT1A_12-Epi_Ltb4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7720017433,
     "complex_iplddt":0.7588908672,
@@ -31,10 +31,10 @@
     "affinity_probability_binary1":0.1104984954,
     "affinity_probability_binary2":0.2771838903,
     "affinity_mean":0.6965834498,
-    "structure_url":"pdb\/5HT1A_12-Hydroxyheptadecatrienoic_Acid.cif"
+    "structure":"pdb\/5HT1A_12-Hydroxyheptadecatrienoic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7455873489,
     "complex_iplddt":0.5374599695,
@@ -48,10 +48,10 @@
     "affinity_probability_binary1":0.0968805179,
     "affinity_probability_binary2":0.0617018752,
     "affinity_mean":0.492587328,
-    "structure_url":"pdb\/5HT1A_12r-Hete.cif"
+    "structure":"pdb\/5HT1A_12r-Hete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7343011498,
     "complex_iplddt":0.5342472792,
@@ -65,10 +65,10 @@
     "affinity_probability_binary1":0.0984660164,
     "affinity_probability_binary2":0.1644960642,
     "affinity_mean":0.4516825974,
-    "structure_url":"pdb\/5HT1A_12s-Hete.cif"
+    "structure":"pdb\/5HT1A_12s-Hete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7140715122,
     "complex_iplddt":0.4764171541,
@@ -82,10 +82,10 @@
     "affinity_probability_binary1":0.0522684492,
     "affinity_probability_binary2":0.057819441,
     "affinity_mean":0.1536636949,
-    "structure_url":"pdb\/5HT1A_12s-Hpete.cif"
+    "structure":"pdb\/5HT1A_12s-Hpete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7724712491,
     "complex_iplddt":0.6927007437,
@@ -99,10 +99,10 @@
     "affinity_probability_binary1":0.071982868,
     "affinity_probability_binary2":0.053841278,
     "affinity_mean":1.0921323299,
-    "structure_url":"pdb\/5HT1A_15s-Hete.cif"
+    "structure":"pdb\/5HT1A_15s-Hete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7324283719,
     "complex_iplddt":0.7802451253,
@@ -116,10 +116,10 @@
     "affinity_probability_binary1":0.0835690275,
     "affinity_probability_binary2":0.051115606,
     "affinity_mean":0.9374731779,
-    "structure_url":"pdb\/5HT1A_17\u0392-Estradiol.cif"
+    "structure":"pdb\/5HT1A_17\u0392-Estradiol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7751142383,
     "complex_iplddt":0.8065817356,
@@ -133,10 +133,10 @@
     "affinity_probability_binary1":0.3490599096,
     "affinity_probability_binary2":0.1374088824,
     "affinity_mean":0.3817143465,
-    "structure_url":"pdb\/5HT1A_18r-Hepe.cif"
+    "structure":"pdb\/5HT1A_18r-Hepe.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7362875938,
     "complex_iplddt":0.5377125144,
@@ -150,10 +150,10 @@
     "affinity_probability_binary1":0.1480777413,
     "affinity_probability_binary2":0.2346354574,
     "affinity_mean":0.1939925974,
-    "structure_url":"pdb\/5HT1A_2-Arachidonoylglycerol.cif"
+    "structure":"pdb\/5HT1A_2-Arachidonoylglycerol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6878354549,
     "complex_iplddt":0.4071640074,
@@ -167,10 +167,10 @@
     "affinity_probability_binary1":0.1699839085,
     "affinity_probability_binary2":0.3318509459,
     "affinity_mean":0.1953104188,
-    "structure_url":"pdb\/5HT1A_2-Arachidonoylglycerolphosphoinositol.cif"
+    "structure":"pdb\/5HT1A_2-Arachidonoylglycerolphosphoinositol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7091390491,
     "complex_iplddt":0.500736773,
@@ -184,10 +184,10 @@
     "affinity_probability_binary1":0.2869733274,
     "affinity_probability_binary2":0.2656767964,
     "affinity_mean":0.3480523825,
-    "structure_url":"pdb\/5HT1A_2-Oleoyl-Lpa.cif"
+    "structure":"pdb\/5HT1A_2-Oleoyl-Lpa.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7765335441,
     "complex_iplddt":0.7905057669,
@@ -201,10 +201,10 @@
     "affinity_probability_binary1":0.1659262478,
     "affinity_probability_binary2":0.1261815131,
     "affinity_mean":-0.1399185956,
-    "structure_url":"pdb\/5HT1A_20-Hydroxy-Ltb4.cif"
+    "structure":"pdb\/5HT1A_20-Hydroxy-Ltb4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.707038343,
     "complex_iplddt":0.5782274604,
@@ -218,10 +218,10 @@
     "affinity_probability_binary1":0.2218305469,
     "affinity_probability_binary2":0.2314312756,
     "affinity_mean":-0.1485905945,
-    "structure_url":"pdb\/5HT1A_25-Hydroxycholesterol.cif"
+    "structure":"pdb\/5HT1A_25-Hydroxycholesterol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7123115063,
     "complex_iplddt":0.4428734779,
@@ -235,10 +235,10 @@
     "affinity_probability_binary1":0.4215953648,
     "affinity_probability_binary2":0.1829917133,
     "affinity_mean":0.6903048555,
-    "structure_url":"pdb\/5HT1A_27-Hydroxycholesterol.cif"
+    "structure":"pdb\/5HT1A_27-Hydroxycholesterol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7536063194,
     "complex_iplddt":0.6504743099,
@@ -252,10 +252,10 @@
     "affinity_probability_binary1":0.1974290907,
     "affinity_probability_binary2":0.1718949825,
     "affinity_mean":2.1447374821,
-    "structure_url":"pdb\/5HT1A_3-Hydroxyoctanoic_Acid.cif"
+    "structure":"pdb\/5HT1A_3-Hydroxyoctanoic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7881743312,
     "complex_iplddt":0.8786216974,
@@ -269,10 +269,10 @@
     "affinity_probability_binary1":0.9979919195,
     "affinity_probability_binary2":0.9734367728,
     "affinity_mean":-2.3021023273,
-    "structure_url":"pdb\/5HT1A_5-Hydroxytryptamine.cif"
+    "structure":"pdb\/5HT1A_5-Hydroxytryptamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7371125221,
     "complex_iplddt":0.7156395316,
@@ -286,10 +286,10 @@
     "affinity_probability_binary1":0.6827458739,
     "affinity_probability_binary2":0.3856010437,
     "affinity_mean":0.8532626033,
-    "structure_url":"pdb\/5HT1A_5-Oxo-12-Hete.cif"
+    "structure":"pdb\/5HT1A_5-Oxo-12-Hete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7441798449,
     "complex_iplddt":0.7219521403,
@@ -303,10 +303,10 @@
     "affinity_probability_binary1":0.1680875719,
     "affinity_probability_binary2":0.1570855379,
     "affinity_mean":0.6163286964,
-    "structure_url":"pdb\/5HT1A_5-Oxo-15-Hete.cif"
+    "structure":"pdb\/5HT1A_5-Oxo-15-Hete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7319490314,
     "complex_iplddt":0.5360043645,
@@ -320,10 +320,10 @@
     "affinity_probability_binary1":0.4828223288,
     "affinity_probability_binary2":0.3634375036,
     "affinity_mean":0.9414873123,
-    "structure_url":"pdb\/5HT1A_5-Oxo-20-Hete.cif"
+    "structure":"pdb\/5HT1A_5-Oxo-20-Hete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7429686189,
     "complex_iplddt":0.5459019542,
@@ -337,10 +337,10 @@
     "affinity_probability_binary1":0.5852848291,
     "affinity_probability_binary2":0.3907515109,
     "affinity_mean":0.5761009455,
-    "structure_url":"pdb\/5HT1A_5-Oxo-C20_3.cif"
+    "structure":"pdb\/5HT1A_5-Oxo-C20_3.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7396443486,
     "complex_iplddt":0.5940991044,
@@ -354,10 +354,10 @@
     "affinity_probability_binary1":0.3838677406,
     "affinity_probability_binary2":0.4080244899,
     "affinity_mean":0.5547288756,
-    "structure_url":"pdb\/5HT1A_5-Oxo-Ete.cif"
+    "structure":"pdb\/5HT1A_5-Oxo-Ete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7258419394,
     "complex_iplddt":0.5075700283,
@@ -371,10 +371,10 @@
     "affinity_probability_binary1":0.5256553888,
     "affinity_probability_binary2":0.4608384371,
     "affinity_mean":0.3065099418,
-    "structure_url":"pdb\/5HT1A_5-Oxo-Ode.cif"
+    "structure":"pdb\/5HT1A_5-Oxo-Ode.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7268862724,
     "complex_iplddt":0.6047762036,
@@ -388,10 +388,10 @@
     "affinity_probability_binary1":0.3086035848,
     "affinity_probability_binary2":0.5025284886,
     "affinity_mean":1.0602743228,
-    "structure_url":"pdb\/5HT1A_5s-Hete.cif"
+    "structure":"pdb\/5HT1A_5s-Hete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7432602048,
     "complex_iplddt":0.5575466752,
@@ -405,10 +405,10 @@
     "affinity_probability_binary1":0.1598897576,
     "affinity_probability_binary2":0.4001722932,
     "affinity_mean":0.4578278561,
-    "structure_url":"pdb\/5HT1A_5s-Hpete.cif"
+    "structure":"pdb\/5HT1A_5s-Hpete.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6765918732,
     "complex_iplddt":0.5483656526,
@@ -422,10 +422,10 @@
     "affinity_probability_binary1":0.0433691218,
     "affinity_probability_binary2":0.1372068077,
     "affinity_mean":0.7729787255,
-    "structure_url":"pdb\/5HT1A_7\u0391,25-Dihydroxycholesterol.cif"
+    "structure":"pdb\/5HT1A_7\u0391,25-Dihydroxycholesterol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6909125447,
     "complex_iplddt":0.4514200687,
@@ -439,10 +439,10 @@
     "affinity_probability_binary1":0.173500061,
     "affinity_probability_binary2":0.1030827612,
     "affinity_mean":0.4730064919,
-    "structure_url":"pdb\/5HT1A_7\u0391,27-Dihydroxycholesterol.cif"
+    "structure":"pdb\/5HT1A_7\u0391,27-Dihydroxycholesterol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7156931758,
     "complex_iplddt":0.4283619523,
@@ -456,10 +456,10 @@
     "affinity_probability_binary1":0.4242233634,
     "affinity_probability_binary2":0.2210546881,
     "affinity_mean":0.0155206323,
-    "structure_url":"pdb\/5HT1A_7\u0392-Hydroxycholesterol.cif"
+    "structure":"pdb\/5HT1A_7\u0392-Hydroxycholesterol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7241311073,
     "complex_iplddt":0.6647925377,
@@ -473,10 +473,10 @@
     "affinity_probability_binary1":0.2261950523,
     "affinity_probability_binary2":0.0505290143,
     "affinity_mean":0.4820074464,
-    "structure_url":"pdb\/5HT1A_9-Hydroxyoctadecadienoic_Acid.cif"
+    "structure":"pdb\/5HT1A_9-Hydroxyoctadecadienoic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7341415882,
     "complex_iplddt":0.6997150779,
@@ -490,10 +490,10 @@
     "affinity_probability_binary1":0.1146576405,
     "affinity_probability_binary2":0.0644509122,
     "affinity_mean":0.3088886452,
-    "structure_url":"pdb\/5HT1A_Acetic_Acid.cif"
+    "structure":"pdb\/5HT1A_Acetic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7844986916,
     "complex_iplddt":0.8376472592,
@@ -507,10 +507,10 @@
     "affinity_probability_binary1":0.5481480956,
     "affinity_probability_binary2":0.8425314426,
     "affinity_mean":0.4060621858,
-    "structure_url":"pdb\/5HT1A_Acetylcholine.cif"
+    "structure":"pdb\/5HT1A_Acetylcholine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7349526882,
     "complex_iplddt":0.6544273496,
@@ -524,10 +524,10 @@
     "affinity_probability_binary1":0.4745053351,
     "affinity_probability_binary2":0.3259812295,
     "affinity_mean":0.7669226527,
-    "structure_url":"pdb\/5HT1A_Adp.cif"
+    "structure":"pdb\/5HT1A_Adp.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7596895695,
     "complex_iplddt":0.8538799882,
@@ -541,10 +541,10 @@
     "affinity_probability_binary1":0.529109478,
     "affinity_probability_binary2":0.8292706013,
     "affinity_mean":0.5765138865,
-    "structure_url":"pdb\/5HT1A_Adrenaline.cif"
+    "structure":"pdb\/5HT1A_Adrenaline.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7430054545,
     "complex_iplddt":0.5388715267,
@@ -558,10 +558,10 @@
     "affinity_probability_binary1":0.2734727859,
     "affinity_probability_binary2":0.1855888367,
     "affinity_mean":-0.2155444473,
-    "structure_url":"pdb\/5HT1A_Anandamide.cif"
+    "structure":"pdb\/5HT1A_Anandamide.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7257714868,
     "complex_iplddt":0.5552140474,
@@ -575,10 +575,10 @@
     "affinity_probability_binary1":0.0931070596,
     "affinity_probability_binary2":0.0665199161,
     "affinity_mean":0.6224022508,
-    "structure_url":"pdb\/5HT1A_Aspirin-Triggered_Resolvin_D1.cif"
+    "structure":"pdb\/5HT1A_Aspirin-Triggered_Resolvin_D1.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7322606444,
     "complex_iplddt":0.6736751199,
@@ -592,10 +592,10 @@
     "affinity_probability_binary1":0.51433599,
     "affinity_probability_binary2":0.4634434283,
     "affinity_mean":1.0019831856,
-    "structure_url":"pdb\/5HT1A_Aspirin_Triggered_Lipoxin_A4.cif"
+    "structure":"pdb\/5HT1A_Aspirin_Triggered_Lipoxin_A4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7125940323,
     "complex_iplddt":0.4789642096,
@@ -609,10 +609,10 @@
     "affinity_probability_binary1":0.2926029265,
     "affinity_probability_binary2":0.3245874941,
     "affinity_mean":0.8836292227,
-    "structure_url":"pdb\/5HT1A_Atp.cif"
+    "structure":"pdb\/5HT1A_Atp.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7767943144,
     "complex_iplddt":0.7250272036,
@@ -626,10 +626,10 @@
     "affinity_probability_binary1":0.1160417646,
     "affinity_probability_binary2":0.1183436364,
     "affinity_mean":2.1776199341,
-    "structure_url":"pdb\/5HT1A_ButyricAcid.cif"
+    "structure":"pdb\/5HT1A_ButyricAcid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7317986488,
     "complex_iplddt":0.5678917766,
@@ -643,10 +643,10 @@
     "affinity_probability_binary1":0.3121089041,
     "affinity_probability_binary2":0.2031786591,
     "affinity_mean":1.1035785278,
-    "structure_url":"pdb\/5HT1A_Chenodeoxycholic_Acid.cif"
+    "structure":"pdb\/5HT1A_Chenodeoxycholic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6979908347,
     "complex_iplddt":0.4977283478,
@@ -660,10 +660,10 @@
     "affinity_probability_binary1":0.4359071553,
     "affinity_probability_binary2":0.3203007281,
     "affinity_mean":0.6943237583,
-    "structure_url":"pdb\/5HT1A_cholesterole.cif"
+    "structure":"pdb\/5HT1A_cholesterole.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7051705718,
     "complex_iplddt":0.418635875,
@@ -677,10 +677,10 @@
     "affinity_probability_binary1":0.2876333296,
     "affinity_probability_binary2":0.2294449359,
     "affinity_mean":1.3297152122,
-    "structure_url":"pdb\/5HT1A_Cholic_Acid.cif"
+    "structure":"pdb\/5HT1A_Cholic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7398411632,
     "complex_iplddt":0.5960233212,
@@ -694,10 +694,10 @@
     "affinity_probability_binary1":0.5319729447,
     "affinity_probability_binary2":0.3782895803,
     "affinity_mean":0.8147022923,
-    "structure_url":"pdb\/5HT1A_Deoxycholic_Acid.cif"
+    "structure":"pdb\/5HT1A_Deoxycholic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7159450054,
     "complex_iplddt":0.4948189557,
@@ -711,10 +711,10 @@
     "affinity_probability_binary1":0.4919581115,
     "affinity_probability_binary2":0.299918741,
     "affinity_mean":0.9108716249,
-    "structure_url":"pdb\/5HT1A_Dihydrosphingosine_1-Phosphate.cif"
+    "structure":"pdb\/5HT1A_Dihydrosphingosine_1-Phosphate.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7050026655,
     "complex_iplddt":0.443929255,
@@ -728,10 +728,10 @@
     "affinity_probability_binary1":0.4371696115,
     "affinity_probability_binary2":0.3984791934,
     "affinity_mean":0.6855585774,
-    "structure_url":"pdb\/5HT1A_Dioleoylphosphatidic_Acid.cif"
+    "structure":"pdb\/5HT1A_Dioleoylphosphatidic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7199100852,
     "complex_iplddt":0.560723722,
@@ -745,10 +745,10 @@
     "affinity_probability_binary1":0.3710263669,
     "affinity_probability_binary2":0.2762125731,
     "affinity_mean":0.2471153736,
-    "structure_url":"pdb\/5HT1A_Docosahexaenoic_Acid.cif"
+    "structure":"pdb\/5HT1A_Docosahexaenoic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7910608649,
     "complex_iplddt":0.8686767817,
@@ -762,10 +762,10 @@
     "affinity_probability_binary1":0.96977669,
     "affinity_probability_binary2":0.9547742009,
     "affinity_mean":-1.2367233833,
-    "structure_url":"pdb\/5HT1A_Dopamine.cif"
+    "structure":"pdb\/5HT1A_Dopamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7215120196,
     "complex_iplddt":0.6800646782,
@@ -779,10 +779,10 @@
     "affinity_probability_binary1":0.0366472863,
     "affinity_probability_binary2":0.0906189829,
     "affinity_mean":0.6911279956,
-    "structure_url":"pdb\/5HT1A_Ecdysterone.cif"
+    "structure":"pdb\/5HT1A_Ecdysterone.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7107897401,
     "complex_iplddt":0.5059524179,
@@ -796,10 +796,10 @@
     "affinity_probability_binary1":0.2803249657,
     "affinity_probability_binary2":0.4767981768,
     "affinity_mean":1.0404972732,
-    "structure_url":"pdb\/5HT1A_Epa.cif"
+    "structure":"pdb\/5HT1A_Epa.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7238349319,
     "complex_iplddt":0.5263208747,
@@ -813,10 +813,10 @@
     "affinity_probability_binary1":0.1828484684,
     "affinity_probability_binary2":0.2420728654,
     "affinity_mean":0.853761375,
-    "structure_url":"pdb\/5HT1A_Farnesyl_Diphosphate.cif"
+    "structure":"pdb\/5HT1A_Farnesyl_Diphosphate.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7103378773,
     "complex_iplddt":0.5304402709,
@@ -830,10 +830,10 @@
     "affinity_probability_binary1":0.2968504429,
     "affinity_probability_binary2":0.2478561997,
     "affinity_mean":0.8838923176,
-    "structure_url":"pdb\/5HT1A_Farnesyl_Monophosphate.cif"
+    "structure":"pdb\/5HT1A_Farnesyl_Monophosphate.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7888134122,
     "complex_iplddt":0.7580806017,
@@ -847,10 +847,10 @@
     "affinity_probability_binary1":0.1655061245,
     "affinity_probability_binary2":0.2202398479,
     "affinity_mean":2.0225215753,
-    "structure_url":"pdb\/5HT1A_Glycine.cif"
+    "structure":"pdb\/5HT1A_Glycine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7684009075,
     "complex_iplddt":0.8442879319,
@@ -864,10 +864,10 @@
     "affinity_probability_binary1":0.7691633701,
     "affinity_probability_binary2":0.6827705503,
     "affinity_mean":0.6305047472,
-    "structure_url":"pdb\/5HT1A_Histamine.cif"
+    "structure":"pdb\/5HT1A_Histamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7736159563,
     "complex_iplddt":0.8370765448,
@@ -881,10 +881,10 @@
     "affinity_probability_binary1":0.7773683071,
     "affinity_probability_binary2":0.5716717243,
     "affinity_mean":-0.3679151287,
-    "structure_url":"pdb\/5HT1A_Isoamylamine.cif"
+    "structure":"pdb\/5HT1A_Isoamylamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7885825038,
     "complex_iplddt":0.8268292546,
@@ -898,10 +898,10 @@
     "affinity_probability_binary1":0.0588644966,
     "affinity_probability_binary2":0.1203759611,
     "affinity_mean":2.458186547,
-    "structure_url":"pdb\/5HT1A_Kynurenic_Acid.cif"
+    "structure":"pdb\/5HT1A_Kynurenic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7507457137,
     "complex_iplddt":0.7230927944,
@@ -915,10 +915,10 @@
     "affinity_probability_binary1":0.2243767381,
     "affinity_probability_binary2":0.2554830015,
     "affinity_mean":2.1490001678,
-    "structure_url":"pdb\/5HT1A_L-Alanine.cif"
+    "structure":"pdb\/5HT1A_L-Alanine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7800636292,
     "complex_iplddt":0.8430203795,
@@ -932,10 +932,10 @@
     "affinity_probability_binary1":0.1341996044,
     "affinity_probability_binary2":0.2598602772,
     "affinity_mean":1.6219805479,
-    "structure_url":"pdb\/5HT1A_L-Arginine.cif"
+    "structure":"pdb\/5HT1A_L-Arginine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7871235609,
     "complex_iplddt":0.8441237807,
@@ -949,10 +949,10 @@
     "affinity_probability_binary1":0.1079455242,
     "affinity_probability_binary2":0.2212659717,
     "affinity_mean":2.4054915905,
-    "structure_url":"pdb\/5HT1A_L-Citrulline.cif"
+    "structure":"pdb\/5HT1A_L-Citrulline.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.748903513,
     "complex_iplddt":0.579238832,
@@ -966,10 +966,10 @@
     "affinity_probability_binary1":0.5325727463,
     "affinity_probability_binary2":0.2943482101,
     "affinity_mean":0.9195769032,
-    "structure_url":"pdb\/5HT1A_L-Glutamic_Acid.cif"
+    "structure":"pdb\/5HT1A_L-Glutamic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7310695052,
     "complex_iplddt":0.6719049215,
@@ -983,10 +983,10 @@
     "affinity_probability_binary1":0.2243524939,
     "affinity_probability_binary2":0.2557150424,
     "affinity_mean":1.4387506247,
-    "structure_url":"pdb\/5HT1A_L-Glutamine.cif"
+    "structure":"pdb\/5HT1A_L-Glutamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7369259,
     "complex_iplddt":0.6747401357,
@@ -1000,10 +1000,10 @@
     "affinity_probability_binary1":0.0713660419,
     "affinity_probability_binary2":0.1770946831,
     "affinity_mean":1.6279697021,
-    "structure_url":"pdb\/5HT1A_L-Lactic_Acid.cif"
+    "structure":"pdb\/5HT1A_L-Lactic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7453551292,
     "complex_iplddt":0.7247263789,
@@ -1017,10 +1017,10 @@
     "affinity_probability_binary1":0.2402697206,
     "affinity_probability_binary2":0.2872924805,
     "affinity_mean":2.5073502461,
-    "structure_url":"pdb\/5HT1A_L-Lysine.cif"
+    "structure":"pdb\/5HT1A_L-Lysine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7852146029,
     "complex_iplddt":0.8304828405,
@@ -1034,10 +1034,10 @@
     "affinity_probability_binary1":0.110837169,
     "affinity_probability_binary2":0.2570208907,
     "affinity_mean":1.685740749,
-    "structure_url":"pdb\/5HT1A_L-Ornithine.cif"
+    "structure":"pdb\/5HT1A_L-Ornithine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7569164038,
     "complex_iplddt":0.8149106503,
@@ -1051,10 +1051,10 @@
     "affinity_probability_binary1":0.3055268526,
     "affinity_probability_binary2":0.1562935859,
     "affinity_mean":1.7686149677,
-    "structure_url":"pdb\/5HT1A_L-Phenylalanine.cif"
+    "structure":"pdb\/5HT1A_L-Phenylalanine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7602850199,
     "complex_iplddt":0.7068545818,
@@ -1068,10 +1068,10 @@
     "affinity_probability_binary1":0.1430684626,
     "affinity_probability_binary2":0.2944535315,
     "affinity_mean":1.6419523954,
-    "structure_url":"pdb\/5HT1A_L-Serine.cif"
+    "structure":"pdb\/5HT1A_L-Serine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7514262795,
     "complex_iplddt":0.5870357156,
@@ -1085,10 +1085,10 @@
     "affinity_probability_binary1":0.4844965339,
     "affinity_probability_binary2":0.2607837319,
     "affinity_mean":0.7710873882,
-    "structure_url":"pdb\/5HT1A_L-Serine-O-Phosphate.cif"
+    "structure":"pdb\/5HT1A_L-Serine-O-Phosphate.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.8058227301,
     "complex_iplddt":0.8595858216,
@@ -1102,10 +1102,10 @@
     "affinity_probability_binary1":0.2971957922,
     "affinity_probability_binary2":0.1413205415,
     "affinity_mean":1.0193590124,
-    "structure_url":"pdb\/5HT1A_L-Tryptophan.cif"
+    "structure":"pdb\/5HT1A_L-Tryptophan.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.729006052,
     "complex_iplddt":0.7665421963,
@@ -1119,10 +1119,10 @@
     "affinity_probability_binary1":0.4508577585,
     "affinity_probability_binary2":0.0936757997,
     "affinity_mean":0.0756920055,
-    "structure_url":"pdb\/5HT1A_3-Iodothyronamine.cif"
+    "structure":"pdb\/5HT1A_3-Iodothyronamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7497333288,
     "complex_iplddt":0.8184882402,
@@ -1136,10 +1136,10 @@
     "affinity_probability_binary1":0.322435379,
     "affinity_probability_binary2":0.1678487509,
     "affinity_mean":0.8610614737,
-    "structure_url":"pdb\/5HT1A_Adenosine.cif"
+    "structure":"pdb\/5HT1A_Adenosine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.8129287958,
     "complex_iplddt":0.8615432382,
@@ -1153,10 +1153,10 @@
     "affinity_probability_binary1":0.4287180305,
     "affinity_probability_binary2":0.2845615745,
     "affinity_mean":1.3844123284,
-    "structure_url":"pdb\/5HT1A_Gaba.cif"
+    "structure":"pdb\/5HT1A_Gaba.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7394233942,
     "complex_iplddt":0.5589450598,
@@ -1170,10 +1170,10 @@
     "affinity_probability_binary1":0.3946092129,
     "affinity_probability_binary2":0.4599020481,
     "affinity_mean":0.8387463291,
-    "structure_url":"pdb\/5HT1A_Linoleic_Acid.cif"
+    "structure":"pdb\/5HT1A_Linoleic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7573900819,
     "complex_iplddt":0.5413666964,
@@ -1187,10 +1187,10 @@
     "affinity_probability_binary1":0.2185557336,
     "affinity_probability_binary2":0.2702289224,
     "affinity_mean":1.0338250597,
-    "structure_url":"pdb\/5HT1A_Oleic_Acid.cif"
+    "structure":"pdb\/5HT1A_Oleic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7107787728,
     "complex_iplddt":0.514359653,
@@ -1204,10 +1204,10 @@
     "affinity_probability_binary1":0.4103951752,
     "affinity_probability_binary2":0.3839506805,
     "affinity_mean":0.7261755268,
-    "structure_url":"pdb\/5HT1A_Lithocholic_Acid.cif"
+    "structure":"pdb\/5HT1A_Lithocholic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6910827756,
     "complex_iplddt":0.4675442278,
@@ -1221,10 +1221,10 @@
     "affinity_probability_binary1":0.3432761133,
     "affinity_probability_binary2":0.2828265727,
     "affinity_mean":0.7985884547,
-    "structure_url":"pdb\/5HT1A_Lpa.cif"
+    "structure":"pdb\/5HT1A_Lpa.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7168328762,
     "complex_iplddt":0.4728165567,
@@ -1238,10 +1238,10 @@
     "affinity_probability_binary1":0.1205328777,
     "affinity_probability_binary2":0.0979841426,
     "affinity_mean":0.5063921412,
-    "structure_url":"pdb\/5HT1A_Ltb4.cif"
+    "structure":"pdb\/5HT1A_Ltb4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6897649765,
     "complex_iplddt":0.4442099631,
@@ -1255,10 +1255,10 @@
     "affinity_probability_binary1":0.2514292896,
     "affinity_probability_binary2":0.1025766954,
     "affinity_mean":1.0595154365,
-    "structure_url":"pdb\/5HT1A_Ltc4.cif"
+    "structure":"pdb\/5HT1A_Ltc4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6758280993,
     "complex_iplddt":0.432867378,
@@ -1272,10 +1272,10 @@
     "affinity_probability_binary1":0.3646314144,
     "affinity_probability_binary2":0.1556469649,
     "affinity_mean":1.4240258932,
-    "structure_url":"pdb\/5HT1A_Ltd4.cif"
+    "structure":"pdb\/5HT1A_Ltd4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7050061226,
     "complex_iplddt":0.4465355575,
@@ -1289,10 +1289,10 @@
     "affinity_probability_binary1":0.1485113204,
     "affinity_probability_binary2":0.2338494956,
     "affinity_mean":0.9880936742,
-    "structure_url":"pdb\/5HT1A_Lte4.cif"
+    "structure":"pdb\/5HT1A_Lte4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7404352427,
     "complex_iplddt":0.6978722215,
@@ -1306,10 +1306,10 @@
     "affinity_probability_binary1":0.2431628257,
     "affinity_probability_binary2":0.0688273162,
     "affinity_mean":0.2007084191,
-    "structure_url":"pdb\/5HT1A_Lxa4.cif"
+    "structure":"pdb\/5HT1A_Lxa4.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.716139257,
     "complex_iplddt":0.5215438604,
@@ -1323,10 +1323,10 @@
     "affinity_probability_binary1":0.304261446,
     "affinity_probability_binary2":0.2538199127,
     "affinity_mean":2.0853691498,
-    "structure_url":"pdb\/5HT1A_Lysophosphatidylinositol.cif"
+    "structure":"pdb\/5HT1A_Lysophosphatidylinositol.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7044573426,
     "complex_iplddt":0.4580186009,
@@ -1340,10 +1340,10 @@
     "affinity_probability_binary1":0.4976587892,
     "affinity_probability_binary2":0.3377093673,
     "affinity_mean":0.823093156,
-    "structure_url":"pdb\/5HT1A_Lysophosphatidylserine.cif"
+    "structure":"pdb\/5HT1A_Lysophosphatidylserine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7710192204,
     "complex_iplddt":0.8531461358,
@@ -1357,10 +1357,10 @@
     "affinity_probability_binary1":0.5036442876,
     "affinity_probability_binary2":0.5099141002,
     "affinity_mean":-1.1762200395,
-    "structure_url":"pdb\/5HT1A_Melatonin.cif"
+    "structure":"pdb\/5HT1A_Melatonin.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7333011031,
     "complex_iplddt":0.5454204082,
@@ -1374,10 +1374,10 @@
     "affinity_probability_binary1":0.2662023008,
     "affinity_probability_binary2":0.2902397513,
     "affinity_mean":1.6692351103,
-    "structure_url":"pdb\/5HT1A_Myristic_Acid.cif"
+    "structure":"pdb\/5HT1A_Myristic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7164997458,
     "complex_iplddt":0.50833565,
@@ -1391,10 +1391,10 @@
     "affinity_probability_binary1":0.4591576457,
     "affinity_probability_binary2":0.3177202344,
     "affinity_mean":0.610551099,
-    "structure_url":"pdb\/5HT1A_N-Arachidonoylglycine.cif"
+    "structure":"pdb\/5HT1A_N-Arachidonoylglycine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7307976484,
     "complex_iplddt":0.5514594316,
@@ -1408,10 +1408,10 @@
     "affinity_probability_binary1":0.4095797241,
     "affinity_probability_binary2":0.3301589787,
     "affinity_mean":0.508964479,
-    "structure_url":"pdb\/5HT1A_N-Oleoylethanolamide.cif"
+    "structure":"pdb\/5HT1A_N-Oleoylethanolamide.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7440181375,
     "complex_iplddt":0.5333864093,
@@ -1425,10 +1425,10 @@
     "affinity_probability_binary1":0.4666129947,
     "affinity_probability_binary2":0.3060187399,
     "affinity_mean":1.8954160213,
-    "structure_url":"pdb\/5HT1A_N-Palmitoylethanolamine.cif"
+    "structure":"pdb\/5HT1A_N-Palmitoylethanolamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7386447787,
     "complex_iplddt":0.6058357954,
@@ -1442,10 +1442,10 @@
     "affinity_probability_binary1":0.6047816277,
     "affinity_probability_binary2":0.3361138701,
     "affinity_mean":0.8270317515,
-    "structure_url":"pdb\/5HT1A_Naag.cif"
+    "structure":"pdb\/5HT1A_Naag.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7435714006,
     "complex_iplddt":0.8274491429,
@@ -1459,10 +1459,10 @@
     "affinity_probability_binary1":0.7328626513,
     "affinity_probability_binary2":0.7883108258,
     "affinity_mean":-0.488394767,
-    "structure_url":"pdb\/5HT1A_Noradrenaline.cif"
+    "structure":"pdb\/5HT1A_Noradrenaline.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7356539369,
     "complex_iplddt":0.8131991029,
@@ -1476,10 +1476,10 @@
     "affinity_probability_binary1":0.6850205064,
     "affinity_probability_binary2":0.8706139922,
     "affinity_mean":0.3280339142,
-    "structure_url":"pdb\/5HT1A_Octopamine.cif"
+    "structure":"pdb\/5HT1A_Octopamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7411651015,
     "complex_iplddt":0.4882469177,
@@ -1493,10 +1493,10 @@
     "affinity_probability_binary1":0.4072769284,
     "affinity_probability_binary2":0.288713187,
     "affinity_mean":0.7399593393,
-    "structure_url":"pdb\/5HT1A_Paf.cif"
+    "structure":"pdb\/5HT1A_Paf.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7755588293,
     "complex_iplddt":0.8391397595,
@@ -1510,10 +1510,10 @@
     "affinity_probability_binary1":0.1027079448,
     "affinity_probability_binary2":0.1035931855,
     "affinity_mean":0.5595183447,
-    "structure_url":"pdb\/5HT1A_Pgd2.cif"
+    "structure":"pdb\/5HT1A_Pgd2.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7657219172,
     "complex_iplddt":0.7869981527,
@@ -1527,10 +1527,10 @@
     "affinity_probability_binary1":0.0973297209,
     "affinity_probability_binary2":0.1230117753,
     "affinity_mean":0.150801152,
-    "structure_url":"pdb\/5HT1A_Pgd3.cif"
+    "structure":"pdb\/5HT1A_Pgd3.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.743493855,
     "complex_iplddt":0.6653410792,
@@ -1544,10 +1544,10 @@
     "affinity_probability_binary1":0.1233673692,
     "affinity_probability_binary2":0.0803327709,
     "affinity_mean":0.440084815,
-    "structure_url":"pdb\/5HT1A_Pge1.cif"
+    "structure":"pdb\/5HT1A_Pge1.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7118278146,
     "complex_iplddt":0.6381438971,
@@ -1561,10 +1561,10 @@
     "affinity_probability_binary1":0.1429718286,
     "affinity_probability_binary2":0.1952138394,
     "affinity_mean":0.0543421209,
-    "structure_url":"pdb\/5HT1A_Pge2.cif"
+    "structure":"pdb\/5HT1A_Pge2.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7439963222,
     "complex_iplddt":0.7729206085,
@@ -1578,10 +1578,10 @@
     "affinity_probability_binary1":0.0459349304,
     "affinity_probability_binary2":0.0936574414,
     "affinity_mean":0.8819334706,
-    "structure_url":"pdb\/5HT1A_Pgf2\u0391.cif"
+    "structure":"pdb\/5HT1A_Pgf2\u0391.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.787727654,
     "complex_iplddt":0.8446019292,
@@ -1595,10 +1595,10 @@
     "affinity_probability_binary1":0.1649815142,
     "affinity_probability_binary2":0.2208070606,
     "affinity_mean":0.945504566,
-    "structure_url":"pdb\/5HT1A_Pgh2.cif"
+    "structure":"pdb\/5HT1A_Pgh2.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7309388518,
     "complex_iplddt":0.7663426399,
@@ -1612,10 +1612,10 @@
     "affinity_probability_binary1":0.1407943666,
     "affinity_probability_binary2":0.1420688331,
     "affinity_mean":0.4850913336,
-    "structure_url":"pdb\/5HT1A_Pgi2.cif"
+    "structure":"pdb\/5HT1A_Pgi2.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7095383406,
     "complex_iplddt":0.5832560658,
@@ -1629,10 +1629,10 @@
     "affinity_probability_binary1":0.0912328735,
     "affinity_probability_binary2":0.1405387968,
     "affinity_mean":1.0850395163,
-    "structure_url":"pdb\/5HT1A_Pgj2.cif"
+    "structure":"pdb\/5HT1A_Pgj2.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7389565706,
     "complex_iplddt":0.5824288726,
@@ -1646,10 +1646,10 @@
     "affinity_probability_binary1":0.4928205907,
     "affinity_probability_binary2":0.1928795725,
     "affinity_mean":1.4912431637,
-    "structure_url":"pdb\/5HT1A_Phosphatidylserine.cif"
+    "structure":"pdb\/5HT1A_Phosphatidylserine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6774509549,
     "complex_iplddt":0.3895398378,
@@ -1663,10 +1663,10 @@
     "affinity_probability_binary1":0.6092000604,
     "affinity_probability_binary2":0.1743211746,
     "affinity_mean":-0.0579783469,
-    "structure_url":"pdb\/5HT1A_polyP-10.cif"
+    "structure":"pdb\/5HT1A_polyP-10.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7703790069,
     "complex_iplddt":0.6239364743,
@@ -1680,10 +1680,10 @@
     "affinity_probability_binary1":0.0855866224,
     "affinity_probability_binary2":0.1479414552,
     "affinity_mean":2.0219533841,
-    "structure_url":"pdb\/5HT1A_Propanoic_Acid.cif"
+    "structure":"pdb\/5HT1A_Propanoic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7182506919,
     "complex_iplddt":0.5371283889,
@@ -1697,10 +1697,10 @@
     "affinity_probability_binary1":0.1982887536,
     "affinity_probability_binary2":0.0757148638,
     "affinity_mean":0.3618525962,
-    "structure_url":"pdb\/5HT1A_Resolvin_D1.cif"
+    "structure":"pdb\/5HT1A_Resolvin_D1.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7604392767,
     "complex_iplddt":0.7490949035,
@@ -1714,10 +1714,10 @@
     "affinity_probability_binary1":0.0546298549,
     "affinity_probability_binary2":0.0701245442,
     "affinity_mean":0.7631173333,
-    "structure_url":"pdb\/5HT1A_Resolvin_E1.cif"
+    "structure":"pdb\/5HT1A_Resolvin_E1.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7118462324,
     "complex_iplddt":0.4870973527,
@@ -1731,10 +1731,10 @@
     "affinity_probability_binary1":0.3859135807,
     "affinity_probability_binary2":0.2971072793,
     "affinity_mean":1.3684470654,
-    "structure_url":"pdb\/5HT1A_Sea.cif"
+    "structure":"pdb\/5HT1A_Sea.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.8088899851,
     "complex_iplddt":0.8234624267,
@@ -1748,10 +1748,10 @@
     "affinity_probability_binary1":0.0011035426,
     "affinity_probability_binary2":0.2281013578,
     "affinity_mean":2.2525629997,
-    "structure_url":"pdb\/5HT1A_Spermine.cif"
+    "structure":"pdb\/5HT1A_Spermine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7417349815,
     "complex_iplddt":0.5342832208,
@@ -1765,10 +1765,10 @@
     "affinity_probability_binary1":0.6124690771,
     "affinity_probability_binary2":0.3394595683,
     "affinity_mean":0.8908077677,
-    "structure_url":"pdb\/5HT1A_Sphingosine_1-Phosphate.cif"
+    "structure":"pdb\/5HT1A_Sphingosine_1-Phosphate.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7844986916,
     "complex_iplddt":0.8466231227,
@@ -1782,10 +1782,10 @@
     "affinity_probability_binary1":0.1065572873,
     "affinity_probability_binary2":0.1961919814,
     "affinity_mean":0.3938884139,
-    "structure_url":"pdb\/5HT1A_Sphingosylphosphorylcholine.cif"
+    "structure":"pdb\/5HT1A_Sphingosylphosphorylcholine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7833371162,
     "complex_iplddt":0.6955947876,
@@ -1799,10 +1799,10 @@
     "affinity_probability_binary1":0.3168827295,
     "affinity_probability_binary2":0.1973823011,
     "affinity_mean":1.3832574089,
-    "structure_url":"pdb\/5HT1A_Succinic_Acid.cif"
+    "structure":"pdb\/5HT1A_Succinic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.8071523309,
     "complex_iplddt":0.857393384,
@@ -1816,10 +1816,10 @@
     "affinity_probability_binary1":0.1017720476,
     "affinity_probability_binary2":0.0992961451,
     "affinity_mean":1.0202384392,
-    "structure_url":"pdb\/5HT1A_Thromboxane_A2.cif"
+    "structure":"pdb\/5HT1A_Thromboxane_A2.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7434232831,
     "complex_iplddt":0.6833246946,
@@ -1833,10 +1833,10 @@
     "affinity_probability_binary1":0.076880239,
     "affinity_probability_binary2":0.1556853354,
     "affinity_mean":2.6406387488,
-    "structure_url":"pdb\/5HT1A_Trans-2-Methylcrotonic_Acid.cif"
+    "structure":"pdb\/5HT1A_Trans-2-Methylcrotonic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7588657141,
     "complex_iplddt":0.8448812962,
@@ -1850,10 +1850,10 @@
     "affinity_probability_binary1":0.8717722297,
     "affinity_probability_binary2":0.7453125715,
     "affinity_mean":-0.5320412914,
-    "structure_url":"pdb\/5HT1A_Tryptamine.cif"
+    "structure":"pdb\/5HT1A_Tryptamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7700925469,
     "complex_iplddt":0.838283062,
@@ -1867,10 +1867,10 @@
     "affinity_probability_binary1":0.8476587534,
     "affinity_probability_binary2":0.891107142,
     "affinity_mean":0.1652741134,
-    "structure_url":"pdb\/5HT1A_Tyramine.cif"
+    "structure":"pdb\/5HT1A_Tyramine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.6948113441,
     "complex_iplddt":0.4620032609,
@@ -1884,10 +1884,10 @@
     "affinity_probability_binary1":0.1394427717,
     "affinity_probability_binary2":0.3186513782,
     "affinity_mean":1.2250650128,
-    "structure_url":"pdb\/5HT1A_Udp.cif"
+    "structure":"pdb\/5HT1A_Udp.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7400467396,
     "complex_iplddt":0.4767893255,
@@ -1901,10 +1901,10 @@
     "affinity_probability_binary1":0.1545423418,
     "affinity_probability_binary2":0.2139061838,
     "affinity_mean":1.3241646687,
-    "structure_url":"pdb\/5HT1A_Udp-Galactose.cif"
+    "structure":"pdb\/5HT1A_Udp-Galactose.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7199568152,
     "complex_iplddt":0.5341460109,
@@ -1918,10 +1918,10 @@
     "affinity_probability_binary1":0.1518965662,
     "affinity_probability_binary2":0.2367920876,
     "affinity_mean":1.153430442,
-    "structure_url":"pdb\/5HT1A_Udp-Glucose.cif"
+    "structure":"pdb\/5HT1A_Udp-Glucose.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7072279453,
     "complex_iplddt":0.5172843337,
@@ -1935,10 +1935,10 @@
     "affinity_probability_binary1":0.2659261823,
     "affinity_probability_binary2":0.300341785,
     "affinity_mean":1.3103360931,
-    "structure_url":"pdb\/5HT1A_Udp-GlucuronicAcid.cif"
+    "structure":"pdb\/5HT1A_Udp-GlucuronicAcid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.71137321,
     "complex_iplddt":0.3763195574,
@@ -1952,10 +1952,10 @@
     "affinity_probability_binary1":0.2351125181,
     "affinity_probability_binary2":0.2049796581,
     "affinity_mean":0.9496776462,
-    "structure_url":"pdb\/5HT1A_Udp_N-Acetyl-Glucosamine.cif"
+    "structure":"pdb\/5HT1A_Udp_N-Acetyl-Glucosamine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7299358249,
     "complex_iplddt":0.5533557534,
@@ -1969,10 +1969,10 @@
     "affinity_probability_binary1":0.3838779032,
     "affinity_probability_binary2":0.3337483406,
     "affinity_mean":0.4640740405,
-    "structure_url":"pdb\/5HT1A_Utp.cif"
+    "structure":"pdb\/5HT1A_Utp.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7667136192,
     "complex_iplddt":0.6798399687,
@@ -1986,10 +1986,10 @@
     "affinity_probability_binary1":0.3214885592,
     "affinity_probability_binary2":0.3148337603,
     "affinity_mean":1.4286871354,
-    "structure_url":"pdb\/5HT1A_\u0391-Ketoglutaric_Acid.cif"
+    "structure":"pdb\/5HT1A_\u0391-Ketoglutaric_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7213511467,
     "complex_iplddt":0.5515761971,
@@ -2003,10 +2003,10 @@
     "affinity_probability_binary1":0.3392287791,
     "affinity_probability_binary2":0.4118383229,
     "affinity_mean":1.0156802932,
-    "structure_url":"pdb\/5HT1A_\u0391-Linolenic_Acid.cif"
+    "structure":"pdb\/5HT1A_\u0391-Linolenic_Acid.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7968716025,
     "complex_iplddt":0.8398523331,
@@ -2020,10 +2020,10 @@
     "affinity_probability_binary1":0.2772434652,
     "affinity_probability_binary2":0.2861244082,
     "affinity_mean":1.7518572807,
-    "structure_url":"pdb\/5HT1A_\u0392-Alanine.cif"
+    "structure":"pdb\/5HT1A_\u0392-Alanine.cif"
   },
   {
-    "CPCR":"5HT1A",
+    "gpcr":"5HT1A",
     "ligand":"\u0392-D-Hydroxybutyric_Acid",
     "complex_plddt":0.7180374861,
     "complex_iplddt":0.5899348855,
@@ -2037,6 +2037,6 @@
     "affinity_probability_binary1":0.0315787941,
     "affinity_probability_binary2":0.1576991081,
     "affinity_mean":0.9552904963,
-    "structure_url":"pdb\/5HT1A_\u0392-D-Hydroxybutyric_Acid.cif"
+    "structure":"pdb\/5HT1A_\u0392-D-Hydroxybutyric_Acid.cif"
   }
 ]
