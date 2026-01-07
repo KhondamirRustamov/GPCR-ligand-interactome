@@ -2,7 +2,7 @@ let allData = [];
 let viewer = null;
 
 // Load data
-fetch("data/predictions.json")
+fetch("data.json")
     .then(response => response.json())
     .then(data => {
         allData = data;
@@ -17,10 +17,10 @@ function renderTable(data) {
         const row = document.createElement("tr");
 
         row.innerHTML = `
-            <td>${entry.gpcr}</td>
+            <td>${entry.CPCR}</td>
             <td>${entry.ligand}</td>
-            <td>${entry.pKi.toFixed(2)}</td>
-            <td>${entry.score.toFixed(3)}</td>
+            <td>${entry.complex_plddt.toFixed(2)}</td>
+            <td>${entry.iptm.toFixed(3)}</td>
             <td><button>View</button></td>
         `;
 
