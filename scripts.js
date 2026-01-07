@@ -104,40 +104,34 @@ function loadStructure(pdbFile) {
 
     $.get(pdbFile, pdbData => {
         viewer.addModel(pdbData, "cif");
-    
-        // remove waters
+
+        // Protein cartoon, colored by B-factor
+       // Remove waters
         viewer.setStyle({ resn: "HOH" }, {});
-    
-        // ligands
+
+        // Ligands and non-protein atoms as sticks
         viewer.setStyle(
             { hetflag: true },
-            { stick: { radius: 0.5 } }
+            {
+                stick: { radius: 0.25 }
+            }
         );
-    
-        // protein cartoon, pLDDT colors
         viewer.setStyle(
             { hetflag: false },
-            {
+            {   
                 cartoon: {
-                    style: "trace",
                     colorscheme: {
-                        prop: "b",
-                        colorfunc: function(atom) {
-        
-                            const v = atom.b;
-        
-                            if (v >= 90) return "0x1f77b4";   // high confidence (blue)
-                            if (v >= 70) return "0x2ca02c";   // medium (green)
-                            if (v >= 50) return "0xffd92f";   // low (yellow)
-                            return "0xd62728";                // very low (red)
-                        }
+                        prop: "tempfactor",
+                        gradient: "roygb",
+                        min: 0,
+                        max: 100,
                     }
                 }
             }
         );
-    
+        const model = viewer.getModel();
+        console.log(model.selectedAtoms({})[0]);
         viewer.zoomTo();
         viewer.render();
     });
-
 }
