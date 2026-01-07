@@ -117,7 +117,7 @@ function loadStructure(pdbFile) {
             }
         );
         viewer.setStyle(
-            { protein: true },
+            { hetflag: false },
             {   
                 cartoon: {
                     colorscheme: {
