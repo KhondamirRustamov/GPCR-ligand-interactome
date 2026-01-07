@@ -123,7 +123,7 @@ function loadStructure(pdbFile) {
                         prop: "b",
                         colorfunc: function(atom) {
         
-                            const v = atom.tempfactor;
+                            const v = atom.b;
         
                             if (v >= 90) return "0x1f77b4";   // high confidence (blue)
                             if (v >= 70) return "0x2ca02c";   // medium (green)
