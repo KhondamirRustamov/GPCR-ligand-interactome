@@ -129,8 +129,6 @@ function loadStructure(pdbFile) {
                 }
             }
         );
-        const model = viewer.getModel();
-        console.log(model.selectedAtoms({})[0]);
         viewer.zoomTo();
         viewer.render();
     });
