@@ -117,9 +117,9 @@ function loadStructure(pdbFile) {
             }
         );
         viewer.setStyle(
-            {
+            { protein: true },
+            {   
                 cartoon: {
-                    style: "trace",
                     colorscheme: {
                         prop: "b",
                         gradient: "roygb"
