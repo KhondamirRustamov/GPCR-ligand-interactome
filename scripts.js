@@ -122,8 +122,8 @@ function loadStructure(pdbFile) {
                 cartoon: {
                     colorscheme: {
                         prop: "tempfactor",
-                        gradient: "roygb",  // rainbow-ish
-                        min: 50,
+                        gradient: 'roygb',  // rainbow-ish
+                        min: 0,
                         max: 100,
                     }
                 }
