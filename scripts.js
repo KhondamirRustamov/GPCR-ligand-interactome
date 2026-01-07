@@ -137,7 +137,6 @@ function loadStructure(pdbFile) {
         );
     
         viewer.zoomTo();
-        viewer.applyStyles();
         viewer.render();
     });
 
