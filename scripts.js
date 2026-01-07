@@ -113,7 +113,7 @@ function loadStructure(pdbFile) {
         viewer.setStyle(
             { hetflag: true },
             {
-                stick: { radius: 0.25 }
+                stick: { radius: 0.5 }
             }
         );
         viewer.setStyle(
