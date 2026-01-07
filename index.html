@@ -48,6 +48,29 @@
     <div id="viewer-container">
         <h3>3D Structure</h3>
         <div id="viewer"></div>
+        <div id="legend-container">
+            <strong>Model Confidence (scaled B-factor):</strong>
+        
+            <div class="colorbar">
+                <div style="--c:#313695"></div>
+                <div style="--c:#4575b4"></div>
+                <div style="--c:#74add1"></div>
+                <div style="--c:#abd9e9"></div>
+                <div style="--c:#ffffbf"></div>
+                <div style="--c:#fdae61"></div>
+                <div style="--c:#f46d43"></div>
+                <div style="--c:#d73027"></div>
+            </div>
+        
+            <div class="legend-scale">
+                <span>50</span>
+                <span>100</span>
+            </div>
+        
+            <div class="legend-note">
+                ROYGB gradient; min = 50, max = 100 (higher = more confident)
+            </div>
+        </div>
         <div id="scores-container">
             <h3>Boltz-2 Confidence Metrics</h3>
         
