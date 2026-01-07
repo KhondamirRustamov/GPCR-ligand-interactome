@@ -122,7 +122,9 @@ function loadStructure(pdbFile) {
                 cartoon: {
                     colorscheme: {
                         prop: "b",
-                        gradient: "roygb"
+                        gradient: "roygb",
+                        min: 0,
+                        max: 100,
                     }
                 }
             }
