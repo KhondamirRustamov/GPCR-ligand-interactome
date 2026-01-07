@@ -119,7 +119,6 @@ function loadStructure(pdbFile) {
             { hetflag: false },
             {
                 cartoon: {
-                    style: "trace",
                     colorscheme: {
                         prop: "tempfactor",
                         colorfunc: function(atom) {
