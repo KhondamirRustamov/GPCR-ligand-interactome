@@ -11,8 +11,9 @@ fetch("data.json")
     })
     .then(data => {
         allData = data;
-        renderTable(allData.slice(0, 200)); // initial render
-    })
+        populateGPCRDropdown(allData);
+        renderTable(allData.slice(0, 200));
+    });
     .catch(err => {
         console.error(err);
         alert("Could not load data.json");
