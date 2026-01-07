@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GPCR–Ligand Interactome (Boltz2)</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 3Dmol -->
+    <script src="https://3dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+
+    <!-- jQuery (needed by 3Dmol) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+<header>
+    <h1>GPCR–Human Ligand Interactome</h1>
+    <p>306 GPCRs × 121 ligands | Boltz2 predictions</p>
+</header>
+
+<section id="controls">
+    <input type="text" id="searchBox" placeholder="Search GPCR or ligand...">
+</section>
+
+<section id="main">
+    <div id="table-container">
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>GPCR</th>
+                    <th>Ligand</th>
+                    <th>pKi</th>
+                    <th>Score</th>
+                    <th>Structure</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div id="viewer-container">
+        <h3>3D Structure</h3>
+        <div id="viewer"></div>
+    </div>
+</section>
+
+<footer>
+    <p>Boltz2 predictions | Khondamir Rustamov Lab</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
