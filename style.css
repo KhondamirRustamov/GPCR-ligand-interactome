@@ -68,3 +68,23 @@ footer {
     background: #1f2937;
     color: white;
 }
+
+#scores-container {
+    margin-top: 16px;
+}
+
+#scoresTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+#scoresTable th,
+#scoresTable td {
+    padding: 6px 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#scoresTable tr:hover {
+    background: #f5f5f5;
+}
