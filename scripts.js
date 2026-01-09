@@ -144,6 +144,13 @@ function loadStructure(pdbFile) {
         viewer.setClickable({}, true, function(atom) {
             handleAtomClick(atom, viewer);
         });
+
+        // double-click reset (ADD THIS)
+        viewer.setDoubleClickHandler(function() {
+            viewer.removeAllLabels();
+            viewer.zoomTo();
+            viewer.render();
+        });
         
         viewer.zoomTo();
         viewer.render();
