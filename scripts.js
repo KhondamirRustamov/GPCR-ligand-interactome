@@ -199,7 +199,6 @@ function handleAtomClick(atom, viewer) {
         { hetflag: false },
         {
             cartoon: {
-                style: "trace",
                 colorscheme: {
                     prop: "b",
                     gradient: "roygb",
