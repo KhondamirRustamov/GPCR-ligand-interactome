@@ -188,13 +188,11 @@ function handleAtomClick(atom, viewer) {
     const resi = atom.resi;
     const chain = atom.chain;
     const resn = atom.resn;
-
     const cutoff = 5.0; // Å
 
-    // Clear previous labels/styles
     viewer.removeAllLabels();
 
-    // Reset base protein style
+    // 🔹 Reset base protein (cartoon, gradient)
     viewer.setStyle(
         { hetflag: false },
         {
@@ -203,50 +201,47 @@ function handleAtomClick(atom, viewer) {
                     prop: "b",
                     gradient: "roygb",
                     min: 100,
-                    max: 50,
+                    max: 50
                 }
             }
         }
     );
 
-    // Highlight clicked residue
+    // 🔹 Selected residue: sticks + magenta
     viewer.setStyle(
         { resi: resi, chain: chain },
         {
-            stick: { radius: 0.4 },
-            cartoon: { color: "magenta" }
+            stick: { radius: 0.45, color: "magenta" }
         }
     );
 
-    // 🔹 Find nearby residues (distance-based)
+    // 🔹 Find nearby atoms (distance-based)
     const nearbyAtoms = viewer.getModel().selectedAtoms({
         within: cutoff,
         sel: { resi: resi, chain: chain }
     });
 
-    // Extract unique nearby residues
-    const nearbyResidues = {};
+    // Collect unique nearby residues
+    const seen = new Set();
     nearbyAtoms.forEach(a => {
+        const key = `${a.chain}:${a.resi}`;
         if (a.resi !== resi || a.chain !== chain) {
-            nearbyResidues[`${a.chain}:${a.resi}`] = {
-                resi: a.resi,
-                chain: a.chain
-            };
+            seen.add(key);
         }
     });
 
-    // Highlight nearby residues
-    Object.values(nearbyResidues).forEach(r => {
+    // 🔹 Nearby residues: sticks only (RCSB-style)
+    seen.forEach(key => {
+        const [c, r] = key.split(":");
         viewer.setStyle(
-            { resi: r.resi, chain: r.chain },
+            { resi: parseInt(r), chain: c },
             {
-                stick: { radius: 0.25 },
-                cartoon: {  color: "grey"  }
+                stick: { radius: 0.25, color: "lightgrey" }
             }
         );
     });
 
-    // Add label for selected residue
+    // 🔹 Label selected residue
     viewer.addLabel(
         `${resn} ${resi} (${chain})`,
         {
@@ -258,7 +253,7 @@ function handleAtomClick(atom, viewer) {
         }
     );
 
-    // Zoom to neighborhood
+    // 🔹 Zoom to neighborhood
     viewer.zoomTo({
         within: cutoff,
         sel: { resi: resi, chain: chain }
