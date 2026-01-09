@@ -140,6 +140,11 @@ function loadStructure(pdbFile) {
                 }
             }
         );
+        // Enable clicking
+        viewer.setClickable({}, true, function(atom) {
+            handleAtomClick(atom, viewer);
+        });
+        
         viewer.zoomTo();
         viewer.render();
     });
@@ -166,6 +171,56 @@ function renderScoresTable(entries) {
 
         tbody.appendChild(row);
     });
+}
+
+function handleAtomClick(atom, viewer) {
+    if (!atom) return;
+
+    const resi = atom.resi;
+    const chain = atom.chain;
+    const resn = atom.resn;
+
+    // Clear previous highlights and labels
+    viewer.removeAllLabels();
+    viewer.setStyle(
+        { hetflag: false },
+        {
+            cartoon: {
+                style: "trace",
+                colorscheme: {
+                    prop: "b",
+                    gradient: "roygb",
+                    min: 100,
+                    max: 50
+                }
+            }
+        }
+    );
+
+    // Highlight selected residue
+    viewer.setStyle(
+        { resi: resi, chain: chain },
+        {
+            stick: { radius: 0.35 },
+            cartoon: { color: "magenta" }
+        }
+    );
+
+    // Add residue label
+    viewer.addLabel(
+        `${resn} ${resi} (${chain})`,
+        {
+            position: atom,
+            backgroundColor: "black",
+            fontColor: "white",
+            fontSize: 12,
+            padding: 2
+        }
+    );
+
+    // Zoom camera to the residue
+    viewer.zoomTo({ resi: resi, chain: chain });
+    viewer.render();
 }
 
 
