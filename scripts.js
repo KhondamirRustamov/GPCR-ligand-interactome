@@ -186,12 +186,11 @@ function handleAtomClick(atom, viewer) {
         { hetflag: false },
         {
             cartoon: {
-                style: "trace",
                 colorscheme: {
                     prop: "b",
                     gradient: "roygb",
-                    min: 100,
-                    max: 50
+                    min: 50,
+                    max: 100
                 }
             }
         }
