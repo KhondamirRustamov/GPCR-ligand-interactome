@@ -198,8 +198,9 @@ function handleAtomClick(atom, viewer) {
                 colorscheme: {
                     prop: "b",
                     gradient: "roygb",
-                    min: 100,
-                    max: 50
+                    min: 50,
+                    max: 100,
+                    
                 }
             }
         }
