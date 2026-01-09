@@ -188,61 +188,33 @@ function handleAtomClick(atom, viewer) {
     const resi = atom.resi;
     const chain = atom.chain;
     const resn = atom.resn;
-    const cutoff = 5.0; // Å
 
+    // Clear previous highlights and labels
     viewer.removeAllLabels();
-
-    // 🔹 Reset base protein (cartoon, gradient)
     viewer.setStyle(
         { hetflag: false },
         {
             cartoon: {
-                style: "trace",
                 colorscheme: {
                     prop: "b",
                     gradient: "roygb",
                     min: 100,
-                    max: 50,
+                    max: 50
                 }
             }
         }
     );
 
-    // 🔹 Selected residue: sticks + magenta
+    // Highlight selected residue
     viewer.setStyle(
         { resi: resi, chain: chain },
         {
-            stick: { radius: 0.45,}
+            stick: { radius: 0.35 },
+            cartoon: { color: "magenta" }
         }
     );
 
-    // 🔹 Find nearby atoms (distance-based)
-    const nearbyAtoms = viewer.getModel().selectedAtoms({
-        within: cutoff,
-        sel: { resi: resi, chain: chain }
-    });
-
-    // Collect unique nearby residues
-    const seen = new Set();
-    nearbyAtoms.forEach(a => {
-        const key = `${a.chain}:${a.resi}`;
-        if (a.resi !== resi || a.chain !== chain) {
-            seen.add(key);
-        }
-    });
-
-    // 🔹 Nearby residues: sticks only (RCSB-style)
-    seen.forEach(key => {
-        const [c, r] = key.split(":");
-        viewer.setStyle(
-            { resi: parseInt(r), chain: c },
-            {
-                stick: { radius: 0.25, color: "lightgrey" }
-            }
-        );
-    });
-
-    // 🔹 Label selected residue
+    // Add residue label
     viewer.addLabel(
         `${resn} ${resi} (${chain})`,
         {
@@ -254,14 +226,30 @@ function handleAtomClick(atom, viewer) {
         }
     );
 
-    // 🔹 Zoom to neighborhood
-    viewer.zoomTo({
-        within: cutoff,
-        sel: { resi: resi, chain: chain }
-    });
-
+    // Zoom camera to the residue
+    viewer.zoomTo({ resi: resi, chain: chain });
     viewer.render();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
