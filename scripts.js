@@ -201,8 +201,8 @@ function handleAtomClick(atom, viewer) {
                 colorscheme: {
                     prop: "b",
                     gradient: "roygb",
-                    min: 50,
-                    max: 100,
+                    min: 100,
+                    max: 50,
                 }
             }
         }
@@ -212,7 +212,7 @@ function handleAtomClick(atom, viewer) {
     viewer.setStyle(
         { resi: resi, chain: chain },
         {
-            stick: { radius: 0.45, color: "magenta" }
+            stick: { radius: 0.45,}
         }
     );
 
