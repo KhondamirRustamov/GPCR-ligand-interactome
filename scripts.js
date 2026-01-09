@@ -202,8 +202,8 @@ function handleAtomClick(atom, viewer) {
                 colorscheme: {
                     prop: "b",
                     gradient: "roygb",
-                    min: 100,
-                    max: 50
+                    min: 50,
+                    max: 100,
                 }
             }
         }
@@ -214,12 +214,7 @@ function handleAtomClick(atom, viewer) {
         { resi: resi, chain: chain },
         {
             stick: { radius: 0.4 },
-            cartoon: { colorscheme: {
-                    prop: "b",
-                    gradient: "roygb",
-                    min: 100,
-                    max: 50
-                } }
+            cartoon: { color: "magenta" }
         }
     );
 
@@ -246,12 +241,7 @@ function handleAtomClick(atom, viewer) {
             { resi: r.resi, chain: r.chain },
             {
                 stick: { radius: 0.25 },
-                cartoon: { colorscheme: {
-                    prop: "b",
-                    gradient: "roygb",
-                    min: 100,
-                    max: 50
-                } }
+                cartoon: {  color: "grey"  }
             }
         );
     });
