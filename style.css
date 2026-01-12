@@ -46,6 +46,25 @@ header {
     position: relative;
 }
 
+#viewer-toolbar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+#viewer-toolbar button {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+#viewer-toolbar button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
