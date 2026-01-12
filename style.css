@@ -46,13 +46,18 @@ header {
     position: relative;
 }
 
-#viewer-toolbar {
+#viewer-header {
     display: flex;
-    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 6px;
 }
 
-#viewer-toolbar button {
+#viewer-header h3 {
+    margin: 0;
+}
+
+#download-structure {
     padding: 6px 10px;
     font-size: 13px;
     border: 1px solid #ccc;
@@ -60,7 +65,7 @@ header {
     cursor: pointer;
 }
 
-#viewer-toolbar button:disabled {
+#download-structure:disabled {
     opacity: 0.5;
     cursor: not-allowed;
 }
