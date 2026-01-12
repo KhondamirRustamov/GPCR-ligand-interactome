@@ -1,5 +1,6 @@
 let allData = [];
 let viewer = null;
+let currentStructureURL = null;
 
 // --------------------------
 // Load data
@@ -115,9 +116,12 @@ function loadStructure(pdbFile) {
 
     $.get(pdbFile, pdbData => {
         viewer.addModel(pdbData, "cif");
+        currentStructureURL = pdbFile;
 
+        const dlBtn = document.getElementById("download-structure");
+        dlBtn.disabled = false;
         // Protein cartoon, colored by B-factor
-       // Remove waters
+        // Remove waters
         viewer.setStyle({ resn: "HOH" }, {});
 
         // Ligands and non-protein atoms as sticks
@@ -232,7 +236,16 @@ function handleAtomClick(atom, viewer) {
     viewer.render();
 }
 
+document.getElementById("download-structure").onclick = () => {
+    if (!currentStructureURL) return;
 
+    const a = document.createElement("a");
+    a.href = currentStructureURL;
+    a.download = currentStructureURL.split("/").pop();
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+};
 
 
 
