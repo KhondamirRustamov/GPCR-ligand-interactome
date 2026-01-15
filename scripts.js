@@ -168,22 +168,35 @@ function renderScoresTable(entries) {
     const tbody = document.querySelector("#scoresTable tbody");
     tbody.innerHTML = "";
 
-    entries.forEach(entry => {
-        const row = document.createElement("tr");
+    if (!entries.length) return;
 
-        row.innerHTML = `
-            <td>${entry.gpcr}</td>
-            <td>${entry.ligand}</td>
-            <td>${entry.complex_plddt.toFixed(3)}</td>
-            <td>${entry.complex_iplddt.toFixed(3)}</td>
-            <td>${entry.iptm.toFixed(3)}</td>
-            <td>${entry.complex_ipde.toFixed(3)}</td>
-            <td>${entry.confidence_score.toFixed(3)}</td>
-            <td>${entry.affinity_mean.toFixed(3)}</td>
+    const e = entries[0];
+
+    const items = [
+        ["GPCR", e.gpcr],
+        ["Ligand", e.ligand],
+        ["complex_plddt", e.complex_plddt.toFixed(3)],
+        ["complex_iplddt", e.complex_iplddt.toFixed(3)],
+        ["iptm", e.iptm.toFixed(3)],
+        ["complex_ipde", e.complex_ipde.toFixed(3)],
+        ["confidence_score", e.confidence_score.toFixed(3)],
+        ["affinity_mean", e.affinity_mean.toFixed(3)]
+    ];
+
+    // build 4 rows, each with two key–value pairs
+    for (let i = 0; i < items.length; i += 2) {
+        const [k1, v1] = items[i];
+        const [k2, v2] = items[i + 1];
+
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+            <th>${k1}</th>
+            <td>${v1}</td>
+            <th>${k2}</th>
+            <td>${v2}</td>
         `;
-
-        tbody.appendChild(row);
-    });
+        tbody.appendChild(tr);
+    }
 }
 
 function handleAtomClick(atom, viewer) {
