@@ -129,14 +129,25 @@ footer {
     font-size: 13px;
 }
 
-#scoresTable th,
-#scoresTable td {
+#scoresTable th {
+    text-align: left;
     padding: 6px 8px;
-    border-bottom: 1px solid #ddd;
+    color: #374151;
+    background: #f9fafb;
+    width: 20%;
 }
 
-#scoresTable tr:hover {
-    background: #f5f5f5;
+#scoresTable td {
+    padding: 6px 8px;
+    width: 30%;
+}
+
+#scoresTable tr {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+#scoresTable th + td {
+    border-right: 1px solid #e5e7eb;
 }
 
 #legend-container {
