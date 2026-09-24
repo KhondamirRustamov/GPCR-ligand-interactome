@@ -1,6 +1,7 @@
 let allData = [];
 let viewer = null;
-let currentStructureURL = null;
+let currentStructureText = null;
+let currentStructureName = null;
 
 // --------------------------
 // Load data
@@ -100,10 +101,42 @@ function applySearch() {
     renderTable(filtered.slice(0, 500));
 }
 
+
+// --------------------------
+// Structure retrieval from Zenodo (HTTP byte range)
+// data.json gives each pair {url, offset, length, encoding, format}: one ranged GET
+// pulls ~76 KB out of a single archive part instead of fetching a whole file.
+// --------------------------
+const structureCache = new Map();
+
+async function fetchStructure(s) {
+    if (typeof s === "string") {                 // legacy: plain relative path
+        const r = await fetch(s);
+        if (!r.ok) throw new Error("HTTP " + r.status + " for " + s);
+        return await r.text();
+    }
+    const key = s.url + "#" + s.offset;
+    if (structureCache.has(key)) return structureCache.get(key);
+    const end = s.offset + s.length - 1;
+    const resp = await fetch(s.url, { headers: { Range: "bytes=" + s.offset + "-" + end } });
+    if (resp.status !== 206 && resp.status !== 200)
+        throw new Error("Zenodo returned " + resp.status + " for the range request");
+    let buf = await resp.arrayBuffer();
+    if (buf.byteLength !== s.length && resp.status === 206)
+        throw new Error("short range read: " + buf.byteLength + " of " + s.length + " bytes");
+    if (s.encoding === "gzip") {
+        const ds = new DecompressionStream("gzip");
+        buf = await new Response(new Blob([buf]).stream().pipeThrough(ds)).arrayBuffer();
+    }
+    const text = new TextDecoder().decode(buf);
+    structureCache.set(key, text);
+    return text;
+}
+
 // --------------------------
 // 3Dmol.js viewer for structures
 // --------------------------
-function loadStructure(pdbFile) {
+async function loadStructure(structRef) {
     const viewerElement = document.getElementById("viewer");
 
     if (!viewer) {
@@ -114,9 +147,19 @@ function loadStructure(pdbFile) {
 
     viewer.clear();
 
-    $.get(pdbFile, pdbData => {
-        viewer.addModel(pdbData, "cif");
-        currentStructureURL = pdbFile;
+    let pdbData;
+    try {
+        pdbData = await fetchStructure(structRef);
+    } catch (e) {
+        console.error(e);
+        alert("Could not load structure: " + e.message);
+        return;
+    }
+    {
+        viewer.addModel(pdbData, structRef.format || "cif");
+        currentStructureText = pdbData;
+        currentStructureName = (structRef && structRef.filename)
+            ? structRef.filename : String(structRef).split("/").pop();
 
         const dlBtn = document.getElementById("download-structure");
         dlBtn.disabled = false;
@@ -160,7 +203,7 @@ function loadStructure(pdbFile) {
         
         viewer.zoomTo();
         viewer.render();
-    });
+    }
 }
 
 
@@ -250,14 +293,18 @@ function handleAtomClick(atom, viewer) {
 }
 
 document.getElementById("download-structure").onclick = () => {
-    if (!currentStructureURL) return;
-
+    if (!currentStructureText) return;
+    // The structure arrived as bytes from an archive, so build the file client-side
+    // rather than linking to a URL that would download the whole archive part.
+    const blob = new Blob([currentStructureText], { type: "chemical/x-cif" });
+    const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
-    a.href = currentStructureURL;
-    a.download = currentStructureURL.split("/").pop();
+    a.href = url;
+    a.download = currentStructureName || "structure.cif";
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
+    URL.revokeObjectURL(url);
 };
 
 

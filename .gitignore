@@ -1,0 +1,7 @@
+# Predicted structures live on Zenodo (DOI), not in git: 44,574 files / 12.7 GB
+pdb/
+# Zenodo upload staging: 10 x 350 MB archive parts + the unsplit archive
+zenodo_upload/structures*.bin
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
