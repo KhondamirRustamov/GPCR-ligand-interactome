@@ -6,12 +6,14 @@
  */
 "use strict";
 
-const C = { NAME:0, PIC50:1, PBIND:2, IPTM:3, PLDDT:4, IPLDDT:5, IPDE:6, CONF:7, PART:8, OFF:9, LEN:10 };
+const C = { NAME:0, AFF:1, PIC50:2, PBIND:3, IPTM:4, PLDDT:5, IPLDDT:6, IPDE:7, CONF:8, PART:9, OFF:10, LEN:11 };
+// Columns where a SMALLER number is the better result, so the first sort click shows those first.
+const LOWER_BETTER = new Set([1, 7]);   // aff (log10 IC50), complex iPDE
 let M = null;                 // manifest
 let rows = [];                // rows currently loaded (compact arrays)
 let view = [];                // rows after filtering, in display order
 let mode = { kind:"top", key:null, label:null };
-let sort = { col:C.PIC50, desc:true };
+let sort = { col:C.AFF, desc:false };
 let sel = -1;
 let viewer = null, structText = null, structName = null;
 const structCache = new Map();
@@ -106,7 +108,7 @@ async function choose(x){
     return;
   }
   mode = { kind:x.kind, key:x.slug, label:x.name, meta:x.meta };
-  sort = { col:C.PIC50, desc:true };
+  sort = { col:C.AFF, desc:false };
   sel = -1;
   applyAndRender();
 }
@@ -152,6 +154,7 @@ function renderTable(){
     const w = Math.max(0, Math.min(100, 100 * (r[C.PIC50]-lo) / (hi-lo)));
     tr.innerHTML =
       '<td class="name">' + label + "</td>" +
+      '<td class="num aff">' + fmt(r[C.AFF],3) + "</td>" +
       '<td class="num"><span class="bar" style="--w:' + w.toFixed(0) + '%">' + fmt(r[C.PIC50],2) + "</span></td>" +
       '<td class="num">' + fmt(r[C.PBIND],3) + "</td>" +
       '<td class="num">' + fmt(r[C.IPTM],3) + "</td>" +
@@ -167,7 +170,7 @@ document.addEventListener("click", ev => {
   const th = ev.target.closest("th.sortable");
   if (!th) { if (!ev.target.closest("#combo")) $("suggest").hidden = true; return; }
   const c = +th.dataset.col;
-  sort = (sort.col === c) ? { col:c, desc:!sort.desc } : { col:c, desc:true };
+  sort = (sort.col === c) ? { col:c, desc:!sort.desc } : { col:c, desc:!LOWER_BETTER.has(c) };
   applyAndRender();
 });
 $("searchBox").addEventListener("input", e => { $("clearBtn").hidden = !e.target.value; renderSuggest(e.target.value); });
@@ -180,7 +183,7 @@ $("searchBox").addEventListener("keydown", e => {
 $("clearBtn").addEventListener("click", () => {
   $("searchBox").value = ""; $("clearBtn").hidden = true; $("suggest").hidden = true;
   rows = M.top.map(r => r.slice(1).concat([r[0]]));
-  mode = { kind:"top", key:null, label:null }; sort = { col:C.PIC50, desc:true };
+  mode = { kind:"top", key:null, label:null }; sort = { col:C.AFF, desc:false };
   applyAndRender(); $("searchBox").focus();
 });
 $("hiconf").addEventListener("change", applyAndRender);
@@ -254,7 +257,8 @@ function draw(text){
 
 function renderScores(r){
   const t = [
-    ["Predicted pIC<sub>50</sub>", fmt(r[C.PIC50],2)],
+    ["Affinity <span class=\"mono\">affinity_pred_value</span><br><small>log<sub>10</sub>(IC<sub>50</sub> / 1 µM), model output</small>", fmt(r[C.AFF],4)],
+    ["Predicted pIC<sub>50</sub> <small>= 6 − affinity</small>", fmt(r[C.PIC50],2)],
     ["P(binder)", fmt(r[C.PBIND],3)],
     ["ipTM", fmt(r[C.IPTM],3)],
     ["Complex pLDDT", fmt(r[C.PLDDT],3)],
