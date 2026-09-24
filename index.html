@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Human GPCR–Ligand Interactome (Boltz-2)</title>
 <meta name="description" content="Predicted structural complexes and binding affinities for 323 human GPCRs against 138 endogenous ligands, computed with Boltz-2.">
-<link rel="stylesheet" href="style.css?v=717b753c">
+<link rel="stylesheet" href="style.css?v=a848d641">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://3dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
 </head>
@@ -48,10 +48,11 @@
       <thead>
         <tr>
           <th data-col="0" class="sortable">Partner</th>
-          <th data-col="1" class="sortable num" title="6 − Boltz-2 affinity value (log10 IC50 in µM)">pIC<sub>50</sub> <span class="sort-ind"></span></th>
-          <th data-col="2" class="sortable num" title="affinity_probability_binary">P(binder)</th>
-          <th data-col="3" class="sortable num" title="interface predicted TM-score">ipTM</th>
-          <th data-col="4" class="sortable num" title="complex pLDDT">pLDDT</th>
+          <th data-col="1" class="sortable num" title="Boltz-2 affinity_pred_value, as output by the model: log10(IC50 / 1 µM). Lower = tighter binding.">Affinity<br><span class="th-sub">log<sub>10</sub> IC<sub>50</sub>/µM</span></th>
+          <th data-col="2" class="sortable num" title="Derived: pIC50 = 6 − affinity_pred_value">pIC<sub>50</sub></th>
+          <th data-col="3" class="sortable num" title="affinity_probability_binary">P(binder)</th>
+          <th data-col="4" class="sortable num" title="interface predicted TM-score">ipTM</th>
+          <th data-col="5" class="sortable num" title="complex pLDDT">pLDDT</th>
           <th class="nosort">Structure</th>
         </tr>
       </thead>
@@ -84,6 +85,6 @@
      structures served from <a href="https://zenodo.org/records/22914196" target="_blank" rel="noopener">Zenodo</a></p>
 </footer>
 
-<script src="scripts.js?v=82fd9100"></script>
+<script src="scripts.js?v=6847059c"></script>
 </body>
 </html>
