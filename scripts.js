@@ -153,7 +153,7 @@ function renderTable(){
     const label = (mode.kind === "top") ? (r[r.length-1] + " · " + r[C.NAME]) : r[C.NAME];
     const w = Math.max(0, Math.min(100, 100 * (r[C.PIC50]-lo) / (hi-lo)));
     tr.innerHTML =
-      '<td class="name">' + label + "</td>" +
+      '<td class="name" title="' + label.replace(/"/g,"&quot;") + '">' + label + "</td>" +
       '<td class="num aff">' + fmt(r[C.AFF],3) + "</td>" +
       '<td class="num"><span class="bar" style="--w:' + w.toFixed(0) + '%">' + fmt(r[C.PIC50],2) + "</span></td>" +
       '<td class="num">' + fmt(r[C.PBIND],3) + "</td>" +
