@@ -1,84 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>GPCR–Ligand Interactome (Boltz2)</title>
-
-    <link rel="stylesheet" href="style.css">
-    
-
-    <!-- 3Dmol -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://3dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Human GPCR–Ligand Interactome (Boltz-2)</title>
+<meta name="description" content="Predicted structural complexes and binding affinities for 323 human GPCRs against 138 endogenous ligands, computed with Boltz-2.">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://3dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
 </head>
-
 <body>
+
 <header>
-    <h1>Human GPCR-Ligand Interactome</h1>
-    <p>323 GPCRs × 138 ligands | Boltz2 predictions</p>
-    <nav class="top-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-    </nav>
+  <h1>Human GPCR–Ligand Interactome</h1>
+  <p class="subtitle"><span id="stat-pairs">44,574</span> predicted complexes &middot;
+     <span id="stat-gpcr">323</span> GPCRs &times; <span id="stat-lig">138</span> endogenous ligands &middot; Boltz-2</p>
+  <nav class="top-nav">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a id="zenodo-link" href="https://zenodo.org/records/22914196" target="_blank" rel="noopener">Data&nbsp;(Zenodo)</a>
+  </nav>
 </header>
 
 <section id="controls">
-    <input
-    type="text"
-    id="searchBox"
-    list="gpcrList"
-    placeholder="Search GPCR (e.g. CXCR4) or ligand..."
->
-
-    <datalist id="gpcrList"></datalist>
+  <div class="search-wrap">
+    <div class="combo" id="combo">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+      <input type="text" id="searchBox" autocomplete="off" spellcheck="false"
+             role="combobox" aria-expanded="false" aria-controls="suggest" aria-autocomplete="list"
+             placeholder="Search a receptor (CXCR4, 5HT1A…) or a ligand (Adenosine, Resolvin D1…)">
+      <button id="clearBtn" type="button" aria-label="Clear" hidden>&times;</button>
+      <div id="suggest" role="listbox" hidden></div>
+    </div>
+    <label class="toggle" title="Only pairs the affinity head calls confident binders. This is the one filter that improved accuracy in our benchmark.">
+      <input type="checkbox" id="hiconf"> <span>High-confidence binders only <code>P&nbsp;&ge;&nbsp;0.9</code></span>
+    </label>
+  </div>
+  <div id="context">
+    <span id="context-label">Showing the 250 strongest predicted pairs across the whole matrix — search above to explore one receptor or one ligand.</span>
+    <span id="rowcount" class="pill"></span>
+  </div>
 </section>
 
 <section id="main">
-    <div id="table-container">
-        <table id="resultsTable">
-            <thead>
-                <tr>
-                    <th>GPCR</th>
-                    <th>Ligand</th>
-                    <th>pKi</th>
-                    <th>Score</th>
-                    <th>Structure</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
+  <div id="table-container">
+    <table id="resultsTable">
+      <thead>
+        <tr>
+          <th data-col="0" class="sortable">Partner</th>
+          <th data-col="1" class="sortable num" title="6 − Boltz-2 affinity value (log10 IC50 in µM)">pIC<sub>50</sub> <span class="sort-ind"></span></th>
+          <th data-col="2" class="sortable num" title="affinity_probability_binary">P(binder)</th>
+          <th data-col="3" class="sortable num" title="interface predicted TM-score">ipTM</th>
+          <th data-col="4" class="sortable num" title="complex pLDDT">pLDDT</th>
+          <th class="nosort">Structure</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="table-empty" hidden>No pairs match this filter.</div>
+  </div>
 
-    <div id="viewer-container">
-        <div id="viewer-header">
-            <h3>3D Structure</h3>
-            <button id="download-structure" disabled>Download CIF</button>
-        </div>
-        <div id="viewer"></div>
-        <div id="legend-container">
-            <strong>Boltz2 plDDT:</strong>
-        
-            <div class="colorbar-continuous"></div>
-        
-            <div class="legend-scale">
-                <span>50</span>
-                <span>100</span>
-            </div>
-        </div>
-        <div id="scores-container">
-            <h3>Boltz-2 Confidence Metrics</h3>
-        
-            <table id="scoresTable">
-                <tbody></tbody>
-            </table>
-
-        </div>
+  <aside id="viewer-container">
+    <div id="viewer-header">
+      <h3 id="viewer-title">3D Structure</h3>
+      <button id="download-structure" disabled>Download CIF</button>
     </div>
+    <div id="viewer"><div id="viewer-placeholder">Select <strong>View</strong> on any row to load the predicted complex.</div></div>
+    <div id="legend-container">
+      <strong>Boltz-2 pLDDT</strong>
+      <div class="colorbar-continuous"></div>
+      <div class="legend-scale"><span>50</span><span>100</span></div>
+      <p class="legend-note">Cartoon coloured by per-residue pLDDT; ligand shown as sticks. Click an atom to label its residue, double-click to reset.</p>
+    </div>
+    <div id="scores-container">
+      <h3>Boltz-2 confidence metrics</h3>
+      <table id="scoresTable"><tbody></tbody></table>
+    </div>
+  </aside>
 </section>
 
 <footer>
-    <p>Boltz2 predictions | CAT Experimental Biophysics Lab</p>
+  <p>Boltz-2 predictions &middot; CAT Experimental Biophysics Lab &middot;
+     structures served from <a href="https://zenodo.org/records/22914196" target="_blank" rel="noopener">Zenodo</a></p>
 </footer>
+
 <script src="scripts.js"></script>
 </body>
 </html>
